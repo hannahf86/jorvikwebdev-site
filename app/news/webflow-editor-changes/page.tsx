@@ -17,10 +17,10 @@ export const metadata = pageMetadata({
   path: "/news/webflow-editor-changes",
 });
 
-// Reproduced verbatim from the source: this anchor's href was authored with the
-// full article paragraph pasted into it (including a markdown link). Kept as-is.
-const BOOK_A_CALL_HREF =
-  "https://I don't love platform changes that make small business owners feel anxious. Your website should be a tool that helps you, not another subscription to stress about. But I also don't miss the old Editor. It was limiting, frustrating for teams, and caused more support headaches than it was worth.  If Webflow had called this \"Editor Pro with Team Roles,\" everyone would be cheering. The fact that it feels like a removal rather than an upgrade is a communication failure, not a product failure.  For my clients with larger teams - especially enterprises, charities with multiple content contributors, or growing businesses with marketing departments - this change genuinely makes your life easier. For my smaller clients, it's mostly neutral. And for everyone, I'm here to make sure the transition is painless.  Because at the end of the day, my job isn't to defend Webflow's business decisions. My job is to make sure your website keeps working for your business without you having to think about the platform politics.  If you've got questions about your specific setup, or you're worried about access for your team, just reply to this or [book a call](https://jorvikweb.dev). I'll give you a straight answer.";
+// The source authored this "book a call" href with an entire article paragraph
+// pasted into it (a clear content error). Pointed at the Calendly booking link,
+// matching every other "Book a call" CTA on the site.
+const BOOK_A_CALL_HREF = "https://calendly.com/hannah-jwd/30min";
 
 export default function WebflowEditorChangesPage() {
   return (

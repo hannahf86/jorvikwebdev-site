@@ -55,21 +55,21 @@ export default function UxDesignForSmallBusinessOwnersPage() {
           <h2 className="sec-title">The 10, arguably best,<br /><span className="text-span-72">Laws of UX Design</span></h2>
           <p className="sec-intro">Let&#x27;s start with a summary, because who has time to read a full blog post these days. That being said... if you click on the card for each law, it will take you to its section to show you visual examples for each; what works, what doesn&#x27;t work and how to get it right.</p>
           <div className="pain-grid">
-            <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#jakobs-law" className="ux-card-link w-inline-block">
+            <a href="#jakobs-law" className="ux-card-link w-inline-block">
               <div className="pain-card">
                 <div className="mini-icon-service-div"><img src="/images/fast.svg" loading="lazy" alt="" /></div>
                 <h3 className="card-h">Jakob&#x27;s Law</h3>
                 <p className="card-p"><strong className="bold-text-2">Users spend most of their time on other sites, so they prefer your site to work like the ones they already know.</strong></p>
               </div>
             </a>
-            <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#hicks-law" className="ux-card-link w-inline-block">
+            <a href="#hicks-law" className="ux-card-link w-inline-block">
               <div className="pain-card">
                 <div className="mini-icon-service-div"><img src="/images/decision.svg" loading="lazy" alt="" /></div>
                 <h3 className="card-h">Hicks Law</h3>
                 <p className="card-p"><strong className="bold-text-3">The time it takes to make a decision increases with the number and complexity of choices.</strong></p>
               </div>
             </a>
-            <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#millers-law" className="ux-card-link w-inline-block">
+            <a href="#millers-law" className="ux-card-link w-inline-block">
               <div className="pain-card">
                 <div className="mini-icon-service-div"><img src="/images/memory.svg" loading="lazy" alt="" /></div>
                 <h3 className="card-h">Miller&#x27;s Law</h3>
@@ -78,21 +78,21 @@ export default function UxDesignForSmallBusinessOwnersPage() {
             </a>
           </div>
           <div className="pain-grid">
-            <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#law-of-proximity" className="ux-card-link w-inline-block">
+            <a href="#law-of-proximity" className="ux-card-link w-inline-block">
               <div className="pain-card">
                 <div className="mini-icon-service-div"><img src="/images/prox-icon.svg" loading="lazy" alt="" /></div>
                 <h3 className="card-h">Law of Proximity</h3>
                 <p className="card-p"><strong className="bold-text-10">Things that are close together are perceived as being related.</strong></p>
               </div>
             </a>
-            <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#cognitive-load" className="ux-card-link w-inline-block">
+            <a href="#cognitive-load" className="ux-card-link w-inline-block">
               <div className="pain-card">
                 <div className="mini-icon-service-div"><img src="/images/cognitive-training.svg" loading="lazy" alt="" /></div>
                 <h3 className="card-h">Cognitive Load</h3>
                 <p className="card-p"><strong className="bold-text-8">The amount of mental effort it takes to use your site should be as low as possible.</strong></p>
               </div>
             </a>
-            <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#fitts-law" className="ux-card-link w-inline-block">
+            <a href="#fitts-law" className="ux-card-link w-inline-block">
               <div className="pain-card">
                 <div className="mini-icon-service-div"><img src="/images/target.svg" loading="lazy" alt="" /></div>
                 <h3 className="card-h">Fitt&#x27;s Law</h3>
@@ -101,21 +101,21 @@ export default function UxDesignForSmallBusinessOwnersPage() {
             </a>
           </div>
           <div className="pain-grid">
-            <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#von-restorff-effect" className="ux-card-link w-inline-block">
+            <a href="#von-restorff-effect" className="ux-card-link w-inline-block">
               <div className="pain-card">
                 <div className="mini-icon-service-div"><img src="/images/von-icon.svg" loading="lazy" alt="" /></div>
                 <h3 className="card-h"><strong>Von Restorff Effect</strong></h3>
                 <p className="card-p"><strong className="bold-text-4">When multiple similar objects are present, the one that differs from the rest is most likely to be remembered.</strong></p>
               </div>
             </a>
-            <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#serial-position-effect" className="ux-card-link w-inline-block">
+            <a href="#serial-position-effect" className="ux-card-link w-inline-block">
               <div className="pain-card">
                 <div className="mini-icon-service-div"><img src="/images/list.svg" loading="lazy" alt="" /></div>
                 <h3 className="card-h">Serial Position Effect</h3>
                 <p className="card-p"><strong className="bold-text-5">People remember the first and last items in a list better than the middle ones.</strong></p>
               </div>
             </a>
-            <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#aesthetic-usability-effect" className="ux-card-link w-inline-block">
+            <a href="#aesthetic-usability-effect" className="ux-card-link w-inline-block">
               <div className="pain-card">
                 <div className="mini-icon-service-div"><img src="/images/flower-1.svg" loading="lazy" alt="" /></div>
                 <h3 className="card-h"><strong>Aesthetic-Usability Effect</strong></h3>
@@ -124,7 +124,7 @@ export default function UxDesignForSmallBusinessOwnersPage() {
             </a>
           </div>
           <div className="pain-grid">
-            <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#occums-razor" className="ux-card-link w-inline-block">
+            <a href="#occums-razor" className="ux-card-link w-inline-block">
               <div className="pain-card">
                 <div className="mini-icon-service-div"><img src="/images/best-1.svg" loading="lazy" alt="" className="image-14" /></div>
                 <h3 className="card-h">Occum&#x27;s Razor</h3>
@@ -146,7 +146,7 @@ export default function UxDesignForSmallBusinessOwnersPage() {
               </div>
               <h4 className="h4-blog">The &#x27;so what?&#x27; for you...</h4>
               <div className="blog-sub-text"><span className="text-span-77"><strong className="bold-text-12">Don&#x27;t reinvent the wheel. </strong></span><strong className="bold-text-13"><br /><br />If you try to be too &quot;creative&quot; with the basic layout, people will feel lost and hit the back button faster than you can say &quot;missed conversion&quot;.<br /><br />Honest Truth: Innovation is for your product, not your &quot;Add to Cart&quot; button.<br /><br /></strong><span className="text-span-78"><strong className="try-text">Try this right now:</strong></span><strong className="bold-text-13"> <br />- Open your site on your phone. <br />- Is your logo in the top left? <br />- Is there a &quot;hamburger&quot; menu (those three little lines) in the top right? <br />- Is your contact info easy to find? <br /><br />If you answered &quot;no&quot; to any of these because you wanted to be &quot;different,&quot; change it back.</strong></div>
-              <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
+              <a href="#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
             </div>
           </div>
         </div>
@@ -163,7 +163,7 @@ export default function UxDesignForSmallBusinessOwnersPage() {
               </div>
               <h4 className="h4-blog">The &#x27;so what?&#x27; for you...</h4>
               <div className="blog-sub-text"><strong className="bold-text-12">Every extra option you give a customer is another chance for them to say &quot;I&#x27;ll think about this later&quot; (which we both know means &quot;never&quot;).</strong><span className="text-span-78"><strong className="try-text"><br /><br />Try this right now:</strong></span><strong className="bold-text-13"> <br />Count the items in your main navigation menu. If it’s more than seven, you’re pushing it. <br />- Can you group those services under one &quot;Services&quot; tab? <br /><br />If you have three different &quot;Buy Now&quot; buttons for the same thing on one page, pick the best one and kill the rest.</strong></div>
-              <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
+              <a href="#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
             </div>
           </div>
         </div>
@@ -180,7 +180,7 @@ export default function UxDesignForSmallBusinessOwnersPage() {
               </div>
               <h4 className="h4-blog">The &#x27;so what?&#x27; for you...</h4>
               <div className="blog-sub-text"><strong className="bold-text-12">If you’re listing your &quot;12 Reasons to Work With Us,&quot; nobody is reading past number five. Group your info into small, bite-sized &quot;chunks&quot; so people actually absorb it. Just like this blog!</strong><span className="text-span-78"><strong className="try-text"><br /><br />Try this right now:</strong></span><strong className="bold-text-13"> <br />Look at your &quot;Services&quot; or &quot;Features&quot; section. <br /><br />- Is it a massive list? <br />- Try grouping them into 3 or 4 categories with icons. <br /><br />It’ll look cleaner and actually get read.</strong></div>
-              <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
+              <a href="#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
             </div>
           </div>
         </div>
@@ -197,7 +197,7 @@ export default function UxDesignForSmallBusinessOwnersPage() {
               </div>
               <h4 className="h4-blog">The &#x27;so what?&#x27; for you...</h4>
               <div className="blog-sub-text"><strong className="bold-text-12">Use whitespace (the empty space between elements) intentionally. Use it to separate different sections, but keep related things, like a product image and its price, hugging each other.<br /><br />‍</strong><span><strong className="bold-text-19">Honest Truth:</strong> </span><span className="text-span-78">Whitespace isn&#x27;t &quot;wasted&quot; space. It&#x27;s the &quot;breathing room&quot; that keeps your customers from feeling claustrophobic.<br />‍</span><span><strong className="bold-text-13"> <br />‍</strong></span><span className="text-span-86"><strong className="try-text">Try this now:</strong></span><strong className="bold-text-13"><br />- Look at your contact form. <br />- Are the labels (like &quot;Email Name&quot;) sitting right on top of the boxes they belong to? <br /><br />If they&#x27;re floating halfway between two boxes, your customers are going to put their names in the email box. Not ideal</strong></div>
-              <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
+              <a href="#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
             </div>
           </div>
         </div>
@@ -214,7 +214,7 @@ export default function UxDesignForSmallBusinessOwnersPage() {
               </div>
               <h4 className="h4-blog">The &#x27;so what?&#x27; for you...</h4>
               <div className="blog-sub-text"><strong className="bold-text-12">Don&#x27;t make them think. Use plain language. Avoid jargon (technical industry talk that makes you sound smart but makes them feel dumb).<br />‍</strong><span><strong className="bold-text-13"> <br />‍</strong></span><span className="text-span-86"><strong className="try-text">Try this now:</strong></span><strong className="bold-text-13"><br />Read your homepage aloud to someone who doesn&#x27;t work in your industry (your mum, your neighbor, the person at the coffee shop). <br /><br />If they have to ask what a sentence means, rewrite it in plain English. <br /><br />If you use a word like &quot;synergistic,&quot; delete it immediately.</strong></div>
-              <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
+              <a href="#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
             </div>
           </div>
         </div>
@@ -231,7 +231,7 @@ export default function UxDesignForSmallBusinessOwnersPage() {
               </div>
               <h4 className="h4-blog">The &#x27;so what?&#x27; for you...</h4>
               <div className="blog-sub-text"><strong className="bold-text-12">On mobile, people use their thumbs. If your &quot;Submit&quot; button is tiny and right next to a &quot;Cancel&quot; button, they’re going to hit the wrong one and get annoyed.<br />‍</strong><span><strong className="bold-text-13"> <br />‍</strong></span><span className="text-span-86"><strong className="try-text">Try this now:</strong></span><strong className="bold-text-13"><br />Open your site on your mobile phone. <br />- Can you easily click your main call-to-action button with your thumb without accidentally clicking something else? <br /><br />If you have to zoom in to click a link, your button is too small.</strong></div>
-              <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
+              <a href="#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
             </div>
           </div>
         </div>
@@ -248,7 +248,7 @@ export default function UxDesignForSmallBusinessOwnersPage() {
               </div>
               <h4 className="h4-blog">The &#x27;so what?&#x27; for you...</h4>
               <div className="blog-sub-text"><strong className="bold-text-12">You should have one primary goal for every page. If you want them to subscribe, make that button the thing that pops. If everything is &quot;popping,&quot; then nothing is.<br /><br />Honest Truth: If your website looks like a bag of Skittles exploded on it, nobody knows where to look. Pick one &quot;action colour&quot; and stick to it.<br />‍</strong><span><strong className="bold-text-13"> <br />‍</strong></span><span className="text-span-86"><strong className="try-text">Try this now:</strong></span><strong className="bold-text-13"><br />Open your site on your mobile phone. <br />- Can you easily click your main call-to-action button with your thumb without accidentally clicking something else? <br /><br />If you have to zoom in to click a link, your button is too small.</strong></div>
-              <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
+              <a href="#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
             </div>
           </div>
         </div>
@@ -265,7 +265,7 @@ export default function UxDesignForSmallBusinessOwnersPage() {
               </div>
               <h4 className="h4-blog">The &#x27;so what?&#x27; for you...</h4>
               <div className="blog-sub-text"><strong className="bold-text-12">Don&#x27;t hide your best-selling product or your &quot;Contact&quot; link in the middle of a long list. It&#x27;ll get lost in the &quot;memory gap&quot;.<br />‍</strong><span><strong className="bold-text-13"> <br />‍</strong></span><span className="text-span-86"><strong className="try-text">Try this now:</strong></span><strong className="bold-text-13"><br />Check your navigation menu. Is &quot;Home&quot; first? Good. Is &quot;Contact&quot; or &quot;Book&quot; last? <br /><br />Excellent. <br /><br />If your most important service is buried in the middle of a five-item list, move it to the first or second spot.</strong></div>
-              <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
+              <a href="#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
             </div>
           </div>
         </div>
@@ -286,7 +286,7 @@ export default function UxDesignForSmallBusinessOwnersPage() {
                 <a href="https://www.seoptimer.com/" target="_blank" rel="noopener noreferrer" className="link-3"><strong className="bold-text-12">SEOptimer</strong></a><strong className="bold-text-12"> to make sure your &quot;pretty&quot; site isn&#x27;t also a &quot;slow&quot; site, because people hate waiting.<br />‍</strong><span><strong className="bold-text-13"> <br />‍</strong></span><span className="text-span-86"><strong className="try-text">Try this now:</strong></span><strong className="bold-text-13"><br />Look at your fonts. <br /><br />- Are you using five different ones? Stick to two. <br /><br />- Are your photos blurry? <br /><br />Replace them with high-res shots (even from your phone!). It&#x27;s a cheap way to look expensive. You can convert them to webp files, which are best for web optimisation, for FREE at </strong>
                 <a href="https://squoosh.app/" target="_blank" rel="noopener noreferrer" className="link-5"><strong className="bold-text-13">Squoosh</strong></a>
               </div>
-              <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
+              <a href="#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
             </div>
           </div>
         </div>
@@ -303,7 +303,7 @@ export default function UxDesignForSmallBusinessOwnersPage() {
               </div>
               <h4 className="h4-blog">The &#x27;so what?&#x27; for you...</h4>
               <div className="blog-sub-text"><strong className="bold-text-12">If you can’t justify why a button or a section is there, delete it. <br /><br />Your site isn&#x27;t finished when there’s nothing left to add; it’s finished when there’s nothing left to take away.<br /><br /></strong><span className="text-span-97"><strong className="bold-text-12">Honest Truth: </strong></span><strong className="bold-text-12">Nobody ever left a website because it was &quot;too easy to use&quot;.<br />‍</strong><span><strong className="bold-text-13"> <br />‍</strong></span><span className="text-span-86"><strong className="try-text">Try this now:</strong></span><strong className="bold-text-13"><br />Find one thing on your homepage, whether that&#x27;s a widget, a social media feed, a paragraph of text, that you haven&#x27;t looked at in a month. If it doesn&#x27;t help someone buy from you, delete it.</strong></div>
-              <a href="https://jwd-new-site.webflow.io/blog/ux-design-for-small-business-owners#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
+              <a href="#ux-laws" className="btn-ghost w-button">Back to all the laws</a>
             </div>
           </div>
         </div>
