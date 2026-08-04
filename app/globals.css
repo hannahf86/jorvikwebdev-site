@@ -1,26 +1,121 @@
-@import "tailwindcss";
+/* =============================================================================
+   GLOBAL STYLES — Jorvik Web Dev (Next.js rebuild)
+   -----------------------------------------------------------------------------
+   Styling strategy (agreed): vendor the original Webflow CSS as the source of
+   visual truth for a pixel-identical port, with Tailwind v4 utilities + the
+   extracted design tokens available for all NEW code (forms, future sections).
+   Migrate section-by-section from vendored CSS -> Tailwind over time.
+   ============================================================================= */
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* --- Tailwind v4: load THEME + UTILITIES only (no Preflight).
+       The vendored normalize.css already provides the reset; Tailwind's
+       Preflight would fight the Webflow base styles and cause visual drift. --- */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* --- Vendored Webflow CSS = the faithful visual layer.
+       Do NOT hand-edit these files; they are the original compiled output.
+       (normalize -> webflow base -> site styles -> homepage inline embeds) --- */
+@import "../styles/vendor/normalize.css";
+@import "../styles/vendor/webflow.css";
+@import "../styles/vendor/jwd-site.css";
+@import "../styles/vendor/home-inline.css";
+
+/* --- Design tokens extracted from the Webflow site, exposed to Tailwind v4.
+       Use these (e.g. `bg-green`, `text-neutral-darkest`, `font-display`) for
+       all NEW components so we stop repeating raw hex values. --- */
+@theme {
+  /* Brand — green (apple) */
+  --color-green: #4ca244;
+  --color-green-dark: #3c8136;
+  --color-green-light: #81bd7c;
+  --color-green-lighter: #dbecd9;
+  --color-green-lightest: #edf5ec;
+  --color-green-darker: #1e401b;
+  --color-green-darkest: #163014;
+
+  /* Secondary — teal (jelly-bean) */
+  --color-teal: #2a9a9e;
+  --color-teal-light: #69b8bb;
+  --color-teal-lighter: #d4eaeb;
+  --color-teal-lightest: #e9f4f5;
+  --color-teal-dark: #217b7e;
+  --color-teal-darker: #103d3f;
+  --color-teal-darkest: #0c2e2f;
+
+  /* Tertiary — orange (tree-poppy) */
+  --color-orange: #f7931e;
+  --color-orange-light: #f9b361;
+  --color-orange-lighter: #fde9d2;
+  --color-orange-lightest: #fef4e8;
+  --color-orange-dark: #c57518;
+  --color-orange-darker: #623a0c;
+  --color-orange-darkest: #4a2c09;
+
+  /* Neutrals */
+  --color-white: #ffffff;
+  --color-neutral-darkest: #0c0702;
+  --color-neutral-darker: #241f1b;
+  --color-neutral-dark: #54514d;
+  --color-neutral: #858380;
+  --color-neutral-light: #b6b4b3;
+  --color-neutral-lighter: #dad9d9;
+  --color-neutral-lightest: #f2f2f2;
+
+  /* Fonts (self-hosted via next/font in app/layout.tsx) */
+  --font-display: var(--font-anton), sans-serif;   /* headings */
+  --font-body: var(--font-lato), sans-serif;       /* body */
+
+  /* Type scale (Webflow token ramp) */
+  --text-h1: 4rem;
+  --text-h1--line-height: 4.2rem;
+  --text-h2: 3rem;
+  --text-h2--line-height: 3.2rem;
+  --text-h3: 2.5rem;
+  --text-h3--line-height: 2.7rem;
+  --text-h4: 1.5rem;
+  --text-h4--line-height: 1.7rem;
+  --text-body-lg: 1.5rem;
+  --text-body-md: 1.25rem;
+  --text-body-md--line-height: 2rem;
+  --text-body-sm: 1rem;
+
+  /* Spacing scale */
+  --spacing-3xs: 0.25rem;
+  --spacing-2xs: 0.5rem;
+  --spacing-xs: 0.75rem;
+  --spacing-s: 1rem;
+  --spacing-m: 1.5rem;
+  --spacing-l: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+  --spacing-3xl: 6rem;
+  --spacing-4xl: 8rem;
+
+  /* Radius */
+  --radius-btn: 6px;
+  --radius-tag: 4px;
+  --radius-pill: 20px;
+
+  /* Shadows */
+  --shadow-xxs: 0 1px 2px #0000000d;
+  --shadow-xs: 0 1px 3px #0000001a, 0 1px 2px #0000000f;
+  --shadow-sm: 0 4px 8px -2px #0000001a, 0 2px 4px -2px #0000000f;
+  --shadow-md: 0 12px 16px -4px #00000014, 0 4px 6px -2px #00000008;
+  --shadow-lg: 0 20px 24px -4px #00000014, 0 8px 8px -4px #00000008;
+  --shadow-xl: 0 24px 48px -12px #0000002e;
+  --shadow-xxl: 0 32px 64px -12px #00000024;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* --- Font wiring: route Webflow's Anton (headings) + Lato (body) usage to the
+       self-hosted next/font faces. These win over the vendored declarations
+       (same specificity, declared later) so literal "Anton"/"Lato" names in the
+       Webflow CSS resolve to the optimized, self-hosted fonts. --- */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-lato), sans-serif;
+}
+h1, h2, h3, h4, h5, h6,
+[class*="heading-style-h"] {
+  font-family: var(--font-anton), sans-serif;
 }
