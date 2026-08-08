@@ -119,3 +119,15 @@ h1, h2, h3, h4, h5, h6,
 [class*="heading-style-h"] {
   font-family: var(--font-anton), sans-serif;
 }
+
+/* --- Enhancement: ease the hamburger's rotate-to-X (the vendored CSS toggles
+       `.w--open` with no transition, so it snapped). --- */
+.spark-simple-menu-button-3 {
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.35s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spark-simple-menu-button-3 {
+    transition: none;
+  }
+}

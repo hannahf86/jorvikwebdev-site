@@ -11,8 +11,9 @@
    here as React state so we don't need Webflow's 1.5MB webflow.js.
    ============================================================================= */
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import gsap from "gsap";
 import { NAV_LINKS, NAV_CARD_LINKS, SITE } from "@/lib/site";
 
 /** Repeated chevron icon used on every mega-nav link. */
@@ -29,12 +30,40 @@ function NavLinkChevron() {
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
+  const menuRef = useRef<HTMLElement>(null);
 
   // Lock body scroll while the takeover menu is open (matches Webflow behaviour).
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
     return () => {
       document.body.style.overflow = "";
+    };
+  }, [open]);
+
+  // Animate the takeover menu IN when it opens, with GSAP. Show/hide (display)
+  // is driven by React via the `data-nav-menu-open` attribute below — reliable
+  // and impossible to leave stuck — while GSAP just layers a fade + slide + a
+  // staggered reveal of the links on top. Closing is immediate (React removes
+  // the attribute). prefers-reduced-motion skips the animation entirely.
+  useEffect(() => {
+    if (!open) return;
+    const menu = menuRef.current;
+    if (!menu) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    const items = menu.querySelectorAll(".spark-mega-nav-link-2, .spark-hold-card-links > a");
+    gsap.killTweensOf([menu, ...items]);
+    const tl = gsap.timeline();
+    tl.fromTo(menu, { autoAlpha: 0, y: -20 }, { autoAlpha: 1, y: 0, duration: 0.45, ease: "power3.out" });
+    tl.fromTo(
+      items,
+      { autoAlpha: 0, y: 16 },
+      { autoAlpha: 1, y: 0, duration: 0.45, stagger: 0.05, ease: "power3.out" },
+      "-=0.28"
+    );
+    return () => {
+      tl.kill();
+      gsap.set([menu, ...items], { clearProps: "opacity,visibility,transform" });
     };
   }, [open]);
 
@@ -59,6 +88,7 @@ export function Navbar() {
 
         {/* --- Mega-menu takeover (shown when `open`) --- */}
         <nav
+          ref={menuRef}
           role="navigation"
           className="spark-mega-menu-take-over-2 w-nav-menu"
           {...(open ? { "data-nav-menu-open": "" } : {})}
