@@ -39,7 +39,15 @@ export function Navbar() {
   }, [open]);
 
   return (
-    <div role="banner" className="hannah-s-nav-bar-2 w-nav">
+    <div
+      data-collapse="all"
+      data-animation="default"
+      data-duration="400"
+      data-easing="ease"
+      data-easing2="ease"
+      role="banner"
+      className="hannah-s-nav-bar-2 w-nav"
+    >
       <div className="spark-square-menu-inner spark-full-width-nav">
         {/* --- Logo --- */}
         <div id="home" className="div-block-13">
