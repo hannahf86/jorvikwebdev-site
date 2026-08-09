@@ -6,7 +6,7 @@ export function About() {
       <div className="about-grid">
         <div className="about-visual"><img alt="" className="asset-tri-about" />
           <div className="sticker-about"><img src="/images/hannah-portrait.jpg" alt="Illustrated portrait of Hannah at her desk" className="about-img" />
-            <div className="sticker-caption">Hannah<br />founder · designer · developer · tea drinker</div>
+            <div className="sticker-caption">Hannah<br />founder · designer · developer<br />tea drinker</div>
           </div>
         </div>
         <div>
