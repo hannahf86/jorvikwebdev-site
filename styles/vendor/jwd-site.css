@@ -7658,7 +7658,7 @@ figcaption {
   .service-tabs {
     grid-column-gap: 2.125rem;
     grid-row-gap: 2.125rem;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
   }
 
@@ -7761,8 +7761,7 @@ figcaption {
     z-index: 5;
     flex-flow: column;
     width: 80vw;
-    height: 100vh;
-    height: 100dvh;
+    height: auto;
     min-height: 0;
     max-height: 100dvh;
     margin-top: 0;
