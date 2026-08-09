@@ -80,7 +80,9 @@ export function Navbar() {
       <div className="spark-square-menu-inner spark-full-width-nav">
         {/* --- Logo --- */}
         <div id="home" className="div-block-13">
-          <img loading="lazy" src="/images/Logo-white-bg.png" alt="" className="image-12" />
+          <Link href="/" aria-label="Jorvik Web Dev — home" className="nav-logo-mark">
+            <img loading="lazy" src="/images/Logo-white-bg.png" alt="" className="image-12" />
+          </Link>
           <Link href="/" aria-current="page" className="nav-logo w--current">
             JORVIK <span className="nav-logo-accent">WEB.DEV</span>
           </Link>

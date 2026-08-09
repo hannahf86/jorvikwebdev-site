@@ -175,3 +175,11 @@ summary:focus-visible {
 .secondary-btn {
   font-weight: 700;
 }
+
+/* --- Logo image link. `display: contents` makes the wrapping link clickable
+       and keyboard-focusable without adding a box, so the image's percentage
+       width still resolves against the logo container. On mobile the text
+       logo is hidden, so this keeps the logo mark itself linking home. --- */
+.nav-logo-mark {
+  display: contents;
+}
