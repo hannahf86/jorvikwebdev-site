@@ -167,3 +167,11 @@ summary:focus-visible {
 .review-stars {
   color: #a5620d;       /* orange-dark */
 }
+
+/* --- Accessibility: bold the white button text on brand-coloured fills.
+       Bold weight improves legibility of white-on-green/teal buttons (most
+       buttons are already 700; these two were 500). --- */
+.primary-btn,
+.secondary-btn {
+  font-weight: 700;
+}
