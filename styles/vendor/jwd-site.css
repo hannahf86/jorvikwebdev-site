@@ -7812,6 +7812,13 @@ figcaption {
     height: 60px;
   }
 
+  .spark-large-card-link-1.is-2 {
+    background-image: none;
+    background-size: auto;
+    width: 90vw;
+    height: 60px;
+  }
+
   .blog-title {
     font-size: var(--_typography---font-sizes--h2);
   }
