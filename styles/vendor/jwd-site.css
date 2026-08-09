@@ -7605,7 +7605,7 @@ figcaption {
   }
 
   .spark-container-2.spark-flexed {
-    padding-bottom: 120px;
+    padding-bottom: 24px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -7761,20 +7761,24 @@ figcaption {
     z-index: 5;
     flex-flow: column;
     width: 80vw;
-    height: 80vh;
-    min-height: 80vh;
-    max-height: none;
+    height: 100vh;
+    height: 100dvh;
+    min-height: 0;
+    max-height: 100dvh;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
-    padding-top: 64px;
+    padding-top: 56px;
     display: block;
-    overflow: scroll;
+    overflow: auto;
   }
 
   .spark-mega-nav-link-2 {
     width: 100%;
-    margin-bottom: .5rem;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.35rem;
   }
 
   .spark-mega-nav-link-2.w--current {
@@ -7797,7 +7801,9 @@ figcaption {
     background-image: none;
     background-size: auto;
     width: 90vw;
-    height: 60px;
+    height: 56px;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
 
   .div-block-14 {
@@ -7809,14 +7815,18 @@ figcaption {
     background-image: none;
     background-size: auto;
     width: 90vw;
-    height: 60px;
+    height: 56px;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
 
   .spark-large-card-link-1.is-2 {
     background-image: none;
     background-size: auto;
     width: 90vw;
-    height: 60px;
+    height: 56px;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
 
   .blog-title {
