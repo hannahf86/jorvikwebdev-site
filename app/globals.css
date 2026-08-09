@@ -131,3 +131,39 @@ h1, h2, h3, h4, h5, h6,
     transition: none;
   }
 }
+
+/* --- Accessibility: visible keyboard focus indicator.
+       The vendored Webflow CSS strips the focus outline from some interactive
+       elements (e.g. .w-nav-button, the hamburger) without a replacement.
+       Restore a clear focus ring for keyboard users only — :focus-visible keeps
+       it from appearing on mouse click. The 2px offset lifts the ring off
+       coloured buttons onto the page background for reliable contrast. --- */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible,
+.w-nav-button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+summary:focus-visible {
+  outline: 0.1875rem solid #2a9a9e;
+  outline-offset: 0.125rem;
+}
+
+/* --- Accessibility: raise contrast of small brand-coloured text that sits on
+       light (white card) backgrounds to meet WCAG AA (>=4.5:1). These use
+       DARKER shades of the SAME brand hues, scoped to elements verified to be
+       on #fff. Brand colours on the dark (#262626) sections, large display
+       text (which already passes at large sizes), buttons and logos are left
+       unchanged — those either pass or are a separate brand decision. --- */
+.tt-blog-meta,          /* teal on white card: 3.38 -> 5.00 */
+.price-name {
+  color: #217b7e;       /* teal-dark */
+}
+.tt-blog-footer {       /* green "Read more" on white card: 3.20 -> 4.79 */
+  color: #3c8136;       /* green-dark */
+}
+.tt-blog-date,          /* orange on white card: 2.30 -> 4.82 */
+.review-stars {
+  color: #a5620d;       /* orange-dark */
+}

@@ -78,11 +78,11 @@ export default function CookiePolicyPage() {
           <p><strong>Last updated:</strong> 9 March 2026</p>
           <p>This Cookie Policy explains how <strong>Jorvik Web</strong> uses cookies and similar technologies on our website.</p>
           <p>By continuing to browse or use our website, you agree to our use of cookies as described in this policy.</p>
-          <h1>What Are Cookies?</h1>
+          <h2>What Are Cookies?</h2>
           <p>Cookies are small text files placed on your device when you visit a website.</p>
           <p>They help websites function properly, remember preferences, and collect information about how visitors interact with the site.</p>
           <p>Cookies cannot run programs or install viruses on your device.</p>
-          <h1>How We Use Cookies</h1>
+          <h2>How We Use Cookies</h2>
           <p>We use cookies to:</p>
           <ul role="list">
             <li>Ensure the website functions correctly</li>
@@ -91,8 +91,8 @@ export default function CookiePolicyPage() {
             <li>Remember user preferences</li>
             <li>Support marketing and analytics</li>
           </ul>
-          <h1>Types of Cookies We Use</h1>
-          <h2>Essential Cookies</h2>
+          <h2>Types of Cookies We Use</h2>
+          <h3>Essential Cookies</h3>
           <p>These cookies are necessary for the website to function properly.</p>
           <p>They may include cookies that:</p>
           <ul role="list">
@@ -101,7 +101,7 @@ export default function CookiePolicyPage() {
             <li>allow forms to work correctly</li>
           </ul>
           <p>Without these cookies, some parts of the website may not work properly.</p>
-          <h2>Analytics Cookies</h2>
+          <h3>Analytics Cookies</h3>
           <p>Analytics cookies help us understand how visitors use our website so we can improve it.</p>
           <p>These cookies may collect information such as:</p>
           <ul role="list">
@@ -115,7 +115,7 @@ export default function CookiePolicyPage() {
           <ul role="list">
             <li><strong>Google Analytics</strong></li>
           </ul>
-          <h2>Marketing and Advertising Cookies</h2>
+          <h3>Marketing and Advertising Cookies</h3>
           <p>Marketing cookies help us understand the effectiveness of advertising and marketing campaigns.</p>
           <p>They may track interactions with ads and help us reach people who may be interested in our services.</p>
           <p>These may include services such as:</p>
@@ -123,7 +123,7 @@ export default function CookiePolicyPage() {
             <li><strong>Meta Pixel</strong></li>
           </ul>
           <p>These cookies may collect information about your browsing behaviour across websites.</p>
-          <h2>Functional Cookies</h2>
+          <h3>Functional Cookies</h3>
           <p>These cookies allow the website to remember choices you make, such as:</p>
           <ul role="list">
             <li>form preferences</li>
@@ -131,7 +131,7 @@ export default function CookiePolicyPage() {
             <li>other usability features</li>
           </ul>
           <p>This helps provide a more personalised experience.</p>
-          <h1>Third-Party Cookies</h1>
+          <h2>Third-Party Cookies</h2>
           <p>Some cookies may be placed by third-party services used on our website.</p>
           <p>These providers may include:</p>
           <ul role="list">
@@ -141,7 +141,7 @@ export default function CookiePolicyPage() {
             <li>social media platforms</li>
           </ul>
           <p>These third parties may collect and process data according to their own privacy policies.</p>
-          <h1>Managing Cookies</h1>
+          <h2>Managing Cookies</h2>
           <p>You can control or delete cookies through your browser settings.</p>
           <p>Most browsers allow you to:</p>
           <ul role="list">
@@ -150,13 +150,13 @@ export default function CookiePolicyPage() {
             <li>receive alerts before cookies are stored</li>
           </ul>
           <p>Please note that disabling some cookies may affect how the website functions.</p>
-          <h1>Cookie Consent</h1>
+          <h2>Cookie Consent</h2>
           <p>When you first visit our website, you may be shown a cookie banner allowing you to accept or manage cookies.</p>
           <p>Non-essential cookies will only be used after consent has been provided.</p>
-          <h1>Changes to This Policy</h1>
+          <h2>Changes to This Policy</h2>
           <p>We may update this Cookie Policy from time to time.</p>
           <p>Updates will be posted on this page.</p>
-          <h1>Contact</h1>
+          <h2>Contact</h2>
           <p>If you have any questions about this Cookie Policy or how cookies are used, please contact:</p>
           <p><strong>Jorvik Web</strong><br />Email: <a href="#">hello@jorvikweb.co.uk</a>
           </p>

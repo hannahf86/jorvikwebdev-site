@@ -98,7 +98,7 @@ export default function TermsConditionsPage() {
           <h2>6. Governing Law</h2>
           <p>These terms are governed by the laws of <strong>England and Wales</strong>.</p>
           <p>Any disputes shall be subject to the jurisdiction of the courts of England and Wales.</p>
-          <h1>GDPR / Data Protection Statement</h1>
+          <h2>GDPR / Data Protection Statement</h2>
           <p>Jorvik Web is committed to protecting personal data and complying with the <strong>UK General Data Protection Regulation</strong> and <strong>Data Protection Act 2018</strong>.</p>
           <p>We follow key data protection principles:</p>
           <ul role="list">
