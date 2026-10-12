@@ -29,7 +29,7 @@ export default function LatestNewsPage() {
           <h2 className="tt-sec-title">Latest <span className="tt-hl-g">posts</span></h2>
           <div className="div-block-15">
             <div className="tt-blog-card">
-              <div className="tt-blog-thumb"><img src="/images/project-client-portal.webp" loading="lazy" sizes="(max-width: 1366px) 100vw, 1366px" srcSet="/images/project-client-portal-p-500.webp 500w, /images/project-client-portal-p-800.webp 800w, /images/project-client-portal-p-1080.webp 1080w, /images/project-client-portal.webp 1366w" alt="" className="image-16" /></div>
+              <div className="tt-blog-thumb"><img src="/images/client-portal-cover.png" loading="lazy" alt="" className="image-16" /></div>
               <div className="tt-blog-body">
                 <div className="div-block-17">
                   <div className="tt-blog-date">Sat 12th Sep &#x27;26</div>

@@ -15,6 +15,7 @@ export const metadata = pageMetadata({
   description:
     "Why I built the JWD Client Portal — one calm place for every project, designed around how my brain actually works — and what it means for you as a client.",
   path: "/news/why-i-built-my-own-client-portal",
+  ogImage: "/images/client-portal-cover.png",
 });
 
 const BOOK_A_CALL_HREF = "https://calendly.com/hannah-jwd/30min";
@@ -40,10 +41,8 @@ export default function ClientPortalPostPage() {
           </p>
           <div className="tt-hero-visual">
             <img
-              src="/images/project-client-portal.webp"
-              alt="The JWD Client Portal"
-              sizes="(max-width: 1366px) 100vw, 1366px"
-              srcSet="/images/project-client-portal-p-500.webp 500w, /images/project-client-portal-p-800.webp 800w, /images/project-client-portal-p-1080.webp 1080w, /images/project-client-portal.webp 1366w"
+              src="/images/client-portal-cover.png"
+              alt="A montage of the JWD Client Portal screens"
               className="tt-computer"
             />
           </div>
