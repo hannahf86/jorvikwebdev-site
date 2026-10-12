@@ -29,6 +29,18 @@ export default function LatestNewsPage() {
           <h2 className="tt-sec-title">Latest <span className="tt-hl-g">posts</span></h2>
           <div className="div-block-15">
             <div className="tt-blog-card">
+              <div className="tt-blog-thumb"><img src="/images/project-mirian.webp" loading="lazy" sizes="(max-width: 1366px) 100vw, 1366px" srcSet="/images/project-mirian-p-500.webp 500w, /images/project-mirian-p-800.webp 800w, /images/project-mirian-p-1080.webp 1080w, /images/project-mirian.webp 1366w" alt="" className="image-16" /></div>
+              <div className="tt-blog-body">
+                <div className="div-block-17">
+                  <div className="tt-blog-date">Mon 28th Sep &#x27;26</div>
+                  <div className="tt-blog-meta">Behind the scenes</div>
+                </div>
+                <h3 className="tt-blog-title">Mirian: Building a Debt Tracker for the Worst Day</h3>
+                <p className="tt-blog-excerpt">Mirian is my own app under Sael North — a calm, shame-free debt tracker for neurodivergent people, designed for your worst day, not your best. Here&#x27;s how it came about, and what that thinking means for your website too.</p>
+                <Link href="/news/mirian-building-a-debt-tracker-for-the-worst-day" className="tt-blog-footer"><span>Read more →</span></Link>
+              </div>
+            </div>
+            <div className="tt-blog-card">
               <div className="tt-blog-thumb"><img src="/images/client-portal-cover.png" loading="lazy" alt="" className="image-16" /></div>
               <div className="tt-blog-body">
                 <div className="div-block-17">

@@ -16,6 +16,7 @@ const PATHS = [
   "/news/lx-foundry-experience-day-patch-york",
   "/news/webflow-editor-changes",
   "/news/why-i-built-my-own-client-portal",
+  "/news/mirian-building-a-debt-tracker-for-the-worst-day",
   "/legal/privacy-policy",
   "/legal/terms-conditions-jorvik-web-dev",
   "/legal/cookie-policy-jorvik-web-dev",
