@@ -194,3 +194,60 @@ summary:focus-visible {
   margin-bottom: 0.6rem;
   line-height: 1.6;
 }
+
+/* --- Latest News search + category filter bar (sits on the light "Latest
+       posts" section). --- */
+.news-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 1.25rem;
+  margin: 0 0 2.5rem;
+}
+.news-search {
+  flex: 1 1 240px;
+  min-width: 12.5rem;
+  max-width: 22.5rem;
+  padding: 0.7rem 1.1rem;
+  border: 0.0625rem solid rgba(12, 7, 2, 0.18);
+  border-radius: 999px;
+  background: #fff;
+  color: #0c0702;
+  font-family: inherit;
+  font-size: 1rem;
+}
+.news-search::placeholder {
+  color: rgba(12, 7, 2, 0.5);
+}
+.news-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.news-chip {
+  padding: 0.5rem 1rem;
+  border: 0.0625rem solid rgba(12, 7, 2, 0.2);
+  border-radius: 999px;
+  background: #fff;
+  color: #241f1b;
+  font-family: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.news-chip:hover {
+  border-color: #4ca244;
+  color: #3c8136;
+}
+.news-chip.is-active {
+  background: #4ca244;
+  border-color: #4ca244;
+  color: #fff;
+  font-weight: 700;
+}
+.news-empty {
+  padding: 2.5rem 0;
+  color: #54514d;
+  font-size: 1.125rem;
+}
