@@ -18,7 +18,7 @@ export const metadata = pageMetadata({
   description:
     "Why I built Mirian — a calm, shame-free debt tracker for neurodivergent people, designed for your worst day, not your best — and what that thinking means for your website.",
   path: "/news/mirian-building-a-debt-tracker-for-the-worst-day",
-  ogImage: "/images/project-mirian.webp",
+  ogImage: "/images/mirian-cover.png",
 });
 
 const MIRIAN_BETA_URL = "https://www.mirian-debt-tracker.app/";
@@ -43,10 +43,8 @@ export default function MirianPostPage() {
           </p>
           <div className="tt-hero-visual">
             <img
-              src="/images/project-mirian.webp"
-              alt="The Mirian debt tracker app"
-              sizes="(max-width: 1366px) 100vw, 1366px"
-              srcSet="/images/project-mirian-p-500.webp 500w, /images/project-mirian-p-800.webp 800w, /images/project-mirian-p-1080.webp 1080w, /images/project-mirian.webp 1366w"
+              src="/images/mirian-cover.png"
+              alt="A montage of the Mirian debt tracker app screens"
               className="tt-computer"
             />
           </div>
