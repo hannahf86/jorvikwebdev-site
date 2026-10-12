@@ -21,8 +21,7 @@ export const metadata = pageMetadata({
   ogImage: "/images/project-mirian.webp",
 });
 
-// TODO: replace with the real Mirian beta signup link once it's live.
-const MIRIAN_BETA_URL = "#";
+const MIRIAN_BETA_URL = "https://www.mirian-debt-tracker.app/";
 const CALENDLY = "https://calendly.com/hannah-jwd/30min";
 
 export default function MirianPostPage() {
