@@ -8,7 +8,7 @@ export function Hero() {
         <div>
           <div className="hero-eyebrow">Web design studio · York, UK</div>
           <h1 className="hero-title"><span className="hero-line"><span className="hw-white">Websites</span></span><span className="hero-line"><span className="hw-green">that work</span></span><span className="hero-line"><span className="hw-teal">for you &amp;</span></span><span className="hero-line"><span className="hw-orange">the planet.</span></span></h1>
-          <p className="hero-sub">Your website should be your hardest-working employee. <br /><br />What&#x27;s it doing <span className="text-span-61">right now</span>? Possibly on a very long lunch break? <br /><br />We build fast, eco-friendly Webflow sites that turn visitors into customers and we teach you how to run them.</p>
+          <p className="hero-sub">Your website should be your hardest-working employee. <br /><br />What&#x27;s it doing <span className="text-span-61">right now</span>? Possibly on a very long lunch break? <br /><br />We build fast, eco-friendly websites that turn visitors into customers and we teach you how to run them.</p>
           <div className="hero-actions">
             <a target="_blank" rel="noopener noreferrer" href="https://calendly.com/hannah-jwd/30min" className="btn-primary">Book a free chat →</a>
             <a href="#services" className="btn-ghost">See pricing</a>
