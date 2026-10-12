@@ -13,6 +13,7 @@ import { About } from "@/components/sections/home/About";
 import { Why } from "@/components/sections/home/Why";
 import { Process } from "@/components/sections/home/Process";
 import { Reviews } from "@/components/sections/home/Reviews";
+import { LatestNews } from "@/components/sections/home/LatestNews";
 import { NewsletterCta } from "@/components/sections/home/NewsletterCta";
 import { Faq } from "@/components/sections/home/Faq";
 import { Cta } from "@/components/sections/home/Cta";
@@ -33,6 +34,7 @@ export default function HomePage() {
       <Why />
       <Process />
       <Reviews />
+      <LatestNews />
       <NewsletterCta />
       <Faq />
       <Cta />

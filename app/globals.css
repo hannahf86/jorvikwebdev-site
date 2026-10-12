@@ -251,3 +251,15 @@ summary:focus-visible {
   color: #54514d;
   font-size: 1.125rem;
 }
+
+/* --- Homepage "Latest news" band (between Reviews and the newsletter). Soft
+       brand tint so it separates from the cream Reviews section above. --- */
+.home-news {
+  padding-top: 6.875rem;
+  padding-bottom: 6.875rem;
+  background-color: #edf5ec;
+}
+.home-news-more {
+  margin-top: 3rem;
+  text-align: center;
+}

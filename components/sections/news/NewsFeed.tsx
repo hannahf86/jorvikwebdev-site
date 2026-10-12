@@ -9,19 +9,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-
-export type NewsPost = {
-  title: string;
-  excerpt: string;
-  href: string;
-  /** Display date, e.g. "Mon 28th Sep '26". */
-  date: string;
-  /** ISO date for sorting, e.g. "2026-09-28". */
-  dateISO: string;
-  /** One of CATEGORIES. */
-  category: string;
-  img: { src: string; srcSet?: string; sizes?: string };
-};
+import type { NewsPost } from "@/lib/news";
 
 export const NEWS_CATEGORIES = ["Behind the scenes", "Events", "Design", "Development"] as const;
 
