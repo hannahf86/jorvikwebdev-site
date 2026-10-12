@@ -29,6 +29,18 @@ export default function LatestNewsPage() {
           <h2 className="tt-sec-title">Latest <span className="tt-hl-g">posts</span></h2>
           <div className="div-block-15">
             <div className="tt-blog-card">
+              <div className="tt-blog-thumb"><img src="/images/project-client-portal.webp" loading="lazy" sizes="(max-width: 1366px) 100vw, 1366px" srcSet="/images/project-client-portal-p-500.webp 500w, /images/project-client-portal-p-800.webp 800w, /images/project-client-portal-p-1080.webp 1080w, /images/project-client-portal.webp 1366w" alt="" className="image-16" /></div>
+              <div className="tt-blog-body">
+                <div className="div-block-17">
+                  <div className="tt-blog-date">Sat 12th Sep &#x27;26</div>
+                  <div className="tt-blog-meta">Behind the scenes</div>
+                </div>
+                <h3 className="tt-blog-title">Why I Built My Own Client Portal</h3>
+                <p className="tt-blog-excerpt">For years my client projects lived across four tools, a busy inbox and a worrying amount of my own memory. So I built the JWD Client Portal — one calm place for every project. Here&#x27;s why, and what it means for you.</p>
+                <Link href="/news/why-i-built-my-own-client-portal" className="tt-blog-footer"><span>Read more →</span></Link>
+              </div>
+            </div>
+            <div className="tt-blog-card">
               <div className="tt-blog-thumb"><img src="/images/IMG_0045.webp" loading="lazy" sizes="(max-width: 5719px) 100vw, 5719px" srcSet="/images/IMG_0045-p-500.webp 500w, /images/IMG_0045-p-800.webp 800w, /images/IMG_0045-p-1080.webp 1080w, /images/IMG_0045-p-1600.webp 1600w, /images/IMG_0045-p-2000.webp 2000w, /images/IMG_0045-p-2600.webp 2600w, /images/IMG_0045-p-3200.webp 3200w, /images/IMG_0045.webp 5719w" alt="" className="image-16" /></div>
               <div className="tt-blog-body">
                 <div className="div-block-17">

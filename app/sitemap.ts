@@ -15,6 +15,7 @@ const PATHS = [
   "/blog/ux-design-for-small-business-owners",
   "/news/lx-foundry-experience-day-patch-york",
   "/news/webflow-editor-changes",
+  "/news/why-i-built-my-own-client-portal",
   "/legal/privacy-policy",
   "/legal/terms-conditions-jorvik-web-dev",
   "/legal/cookie-policy-jorvik-web-dev",
