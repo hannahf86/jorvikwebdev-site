@@ -16,10 +16,6 @@ export const SITE = {
   contactInbox: "hannah@jorvikweb.dev",
   /** Default social share image (og:image / twitter:image). */
   ogImage: "/images/JWD-Nav-Cover-1.png",
-  /** Google Analytics 4 measurement id (carried over from the Webflow site). */
-  gaId: "G-BH2VS891S8",
-  /** Webflow "developer_id" analytics tag (preserved from the original). */
-  gaDeveloperId: "dZGVlNj",
   calendly: "https://calendly.com/hannah-jwd/30min",
   developerPortfolio: "https://hfdesign.co.uk",
 } as const;

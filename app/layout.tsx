@@ -2,7 +2,8 @@
    ROOT LAYOUT — wraps every page.
    - Self-hosts Anton (headings) + Lato (body) via next/font (no external
      Google request; matches the "fast, eco-friendly" brand ethos).
-   - Provides the shared Navbar + Footer + Analytics + CookieBanner shell.
+   - Provides the shared Navbar + Footer + CookieBanner shell, plus Vercel
+     Web Analytics + Speed Insights (replaced the old Google Analytics).
    - Sets site-wide default metadata (title/description/OG/Twitter/icons).
    ============================================================================= */
 
@@ -11,8 +12,9 @@ import { Anton, Lato } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
-import { Analytics } from "@/components/layout/Analytics";
 import { CookieBanner } from "@/components/layout/CookieBanner";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { SITE } from "@/lib/site";
 
 // Anton — display/headings (single weight 400).
@@ -67,6 +69,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Footer />
         <CookieBanner />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
