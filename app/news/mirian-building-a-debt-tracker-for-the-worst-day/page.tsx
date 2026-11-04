@@ -14,9 +14,9 @@ import { pageMetadata } from "@/lib/seo";
 import { NewsletterCta } from "@/components/sections/home/NewsletterCta";
 
 export const metadata = pageMetadata({
-  title: "Mirian: Building a Debt Tracker for the Worst Day | Jorvik Web Dev",
+  title: "Mirian: A Debt Tracker for Your Worst Day | Jorvik Web Dev",
   description:
-    "Why I built Mirian — a calm, shame-free debt tracker for neurodivergent people, designed for your worst day, not your best — and what that thinking means for your website.",
+    "Why I built Mirian, a calm, shame-free debt tracker for neurodivergent people, and what that thinking means for your website.",
   path: "/news/mirian-building-a-debt-tracker-for-the-worst-day",
   ogImage: "/images/mirian-cover.png",
 });

@@ -1,6 +1,6 @@
 /* =============================================================================
-   sitemap.xml — reproduces the live site's 14 URLs (apex host), including both
-   the /legal/* and /policies/* policy sets.
+   sitemap.xml — canonical, indexable URLs only (apex host). The /policies/*
+   pages are omitted: they canonicalize to their richer /legal/* equivalents.
    ============================================================================= */
 
 import type { MetadataRoute } from "next";
@@ -21,9 +21,6 @@ const PATHS = [
   "/legal/privacy-policy",
   "/legal/terms-conditions-jorvik-web-dev",
   "/legal/cookie-policy-jorvik-web-dev",
-  "/policies/privacy-policy",
-  "/policies/terms-and-conditions",
-  "/policies/cookie-policy",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -11,7 +11,7 @@ import { pageMetadata } from "@/lib/seo";
 import { NewsletterCta } from "@/components/sections/home/NewsletterCta";
 
 export const metadata = pageMetadata({
-  title: "LX foundry Experience Day at Patch, York | Jorvik Web Dev",
+  title: "LX Foundry Experience Day at Patch, York | Jorvik Web Dev",
   description:
     "Highlights from the LX Foundry experience day at Patch, York — what it was like and what small businesses can take from it.",
   path: "/news/lx-foundry-experience-day-patch-york",
