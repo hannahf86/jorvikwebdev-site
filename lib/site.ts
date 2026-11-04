@@ -45,4 +45,7 @@ export const FOOTER_LINKS = [
   { label: "Reviews", href: "/#reviews" },
   { label: "Developer portfolio", href: SITE.developerPortfolio, external: true },
   { label: SITE.email, href: `mailto:${SITE.email}` },
+  { label: "Privacy Policy", href: "/legal/privacy-policy" },
+  { label: "Terms & Conditions", href: "/legal/terms-conditions-jorvik-web-dev" },
+  { label: "Cookie Policy", href: "/legal/cookie-policy-jorvik-web-dev" },
 ] as const;

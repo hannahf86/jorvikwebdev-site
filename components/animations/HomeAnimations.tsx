@@ -248,7 +248,7 @@ export function HomeAnimations() {
       $$(".reel-img", reel).forEach((img) => reel.appendChild(img.cloneNode(true)));
       if (!RM) {
         const startReel = () => {
-          const half = (reel.scrollHeight + 40) / 2;
+          const half = (reel.scrollHeight + 48) / 2;
           gsap.to(reel, { y: -half, duration: 30, ease: "none", repeat: -1 });
         };
         if (document.readyState === "complete") startReel();
