@@ -10,6 +10,7 @@ const PATHS = [
   "/",
   "/find-my-web-design-service",
   "/latest-news",
+  "/app-development",
   "/resources",
   "/tips-tricks",
   "/blog/ux-design-for-small-business-owners",
