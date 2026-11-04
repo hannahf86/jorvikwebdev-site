@@ -126,7 +126,15 @@ export function Navbar() {
 
         {/* --- Right side: Calendly CTA + hamburger --- */}
         <div className="div-block-14">
-          <a href={SITE.calendly} target="_blank" rel="noopener noreferrer" className="btn-primary w-button">
+          <a
+            href={SITE.calendly}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary w-button"
+            style={open ? { visibility: "hidden" } : undefined}
+            aria-hidden={open || undefined}
+            tabIndex={open ? -1 : undefined}
+          >
             Book a call
           </a>
           <button
