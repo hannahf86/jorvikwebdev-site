@@ -39,14 +39,22 @@ const APPS: {
   },
   {
     name: "Lindon",
-    purpose: "Music teaching studio manager",
+    purpose: "Music practice journal",
     intro:
-      "An all-in-one dashboard for music teachers — lessons, students, invoices, exams and income, calmly in one place.",
+      "A calm home for music lessons and practice — track lessons, pieces and exams, and keep progress building between sessions.",
     image: "/images/app-lindon.webp",
     href: null,
   },
   {
     name: "Enyn",
+    purpose: "Client dashboard for web designers",
+    intro:
+      "A client and project dashboard for solo web designers — projects, clients, tasks, invoices and time, all in one calm overview.",
+    image: "/images/app-enyn.webp",
+    href: null,
+  },
+  {
+    name: "Wise Mind",
     purpose: "DBT skills app",
     intro:
       "A warm DBT skills app under Sael North — learn skills at your own pace, build a personal toolkit, and reflect without pressure.",
