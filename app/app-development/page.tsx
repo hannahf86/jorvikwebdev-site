@@ -46,21 +46,11 @@ const APPS: {
     href: null,
   },
   {
-    // NOTE: image is the "Wise Mind" DBT app — confirm Enyn ↔ Wise Mind (vs Tiro).
     name: "Enyn",
     purpose: "DBT skills app",
     intro:
       "A warm DBT skills app under Sael North — learn skills at your own pace, build a personal toolkit, and reflect without pressure.",
     image: "/images/app-wise-mind.webp",
-    href: null,
-  },
-  {
-    // NOTE: image is the "Studio overview" dashboard — confirm Tiro ↔ Studio (vs Enyn).
-    name: "Tiro",
-    purpose: "Studio & project manager",
-    intro:
-      "A calm operations hub for a solo studio — projects, clients, tasks, invoices and time, all in one clear overview.",
-    image: "/images/app-studio.webp",
     href: null,
   },
   {
