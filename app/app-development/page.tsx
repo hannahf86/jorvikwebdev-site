@@ -5,9 +5,9 @@ import { pageMetadata } from "@/lib/seo";
 import { NewsletterCta } from "@/components/sections/home/NewsletterCta";
 
 export const metadata = pageMetadata({
-  title: "App Development — Apps built by Jorvik Web Dev",
+  title: "App Development: Apps built by Jorvik Web Dev",
   description:
-    "A growing collection of apps designed and built by Jorvik Web Dev — some live, some still in development.",
+    "A growing collection of apps designed and built by Jorvik Web Dev. Some live, some still in development.",
   path: "/app-development",
 });
 
@@ -33,23 +33,25 @@ const APPS: {
     name: "Mirian",
     purpose: "Shame-free debt tracker",
     intro:
-      "My own app under Sael North — a calm, shame-free debt tracker for neurodivergent people, designed for your worst day, not your best.",
+      "My own app under Sael North. A calm, shame-free debt tracker for neurodivergent people, designed for your worst day, not your best.",
     image: "/images/app-mirian.webp",
-    href: null,
+    href: "https://www.mirian-debt-tracker.app/",
+    external: true,
   },
   {
     name: "Lindon",
     purpose: "Music practice journal",
     intro:
-      "A calm home for music lessons and practice — track lessons, pieces and exams, and keep progress building between sessions.",
+      "A calm home for music lessons and practice. Track lessons, pieces and exams, and keep progress building between sessions.",
     image: "/images/app-lindon.webp",
-    href: null,
+    href: "https://www.musicpracticejournal.app/",
+    external: true,
   },
   {
     name: "Enyn",
     purpose: "Client dashboard for web designers",
     intro:
-      "A client and project dashboard for solo web designers — projects, clients, tasks, invoices and time, all in one calm overview.",
+      "A client and project dashboard for solo web designers. Projects, clients, tasks, invoices and time, all in one calm overview.",
     image: "/images/app-enyn.webp",
     href: null,
   },
@@ -57,7 +59,7 @@ const APPS: {
     name: "Wise Mind",
     purpose: "DBT skills app",
     intro:
-      "A warm DBT skills app under Sael North — learn skills at your own pace, build a personal toolkit, and reflect without pressure.",
+      "A warm DBT skills app under Sael North. Learn skills at your own pace, build a personal toolkit, and reflect without pressure.",
     image: "/images/app-wise-mind.webp",
     href: null,
   },
@@ -65,7 +67,7 @@ const APPS: {
     name: "Mereth",
     purpose: "Music festival entries platform",
     intro:
-      "A friendly entry platform for music festivals — families browse the syllabus, find the right class, and enter and pay securely.",
+      "A friendly entry platform for music festivals. Families browse the syllabus, find the right class, and enter and pay securely.",
     image: "/images/app-mereth.webp",
     href: null,
   },
@@ -82,7 +84,7 @@ export default function AppDevelopmentPage() {
             <span className="tt-hw tt-hw-g">with care.</span>
           </h1>
           <p className="tt-hero-sub">
-            A growing collection of apps I&#x27;ve designed and built — some live, some still in
+            A growing collection of apps I&#x27;ve designed and built. Some live, some still in
             development. Calm, useful tools made the same way I build websites: for real people, not edge cases.
           </p>
         </div>
