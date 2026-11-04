@@ -263,3 +263,11 @@ summary:focus-visible {
   margin-top: 3rem;
   text-align: center;
 }
+
+/* --- App Development page: the non-link "App in development" state on a card.
+       Muted neutral (not the green link colour) so it reads as a status, not a
+       link, and still meets AA contrast on the white card. --- */
+.tt-blog-footer-dev {
+  color: #54514d;
+  cursor: default;
+}
