@@ -6546,9 +6546,10 @@ figcaption {
   }
 
   .hero-grid {
-    grid-template-rows: auto;
-    grid-template-columns: 1fr;
-    row-gap: 4.375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.375rem;
   }
 
   .hero-title {
