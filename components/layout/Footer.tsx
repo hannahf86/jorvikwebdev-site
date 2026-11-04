@@ -1,41 +1,57 @@
 /* =============================================================================
    COMPONENT: Footer  (shared — every page)
-   Faithful port of the Webflow footer (original: index.html <footer class="footer">).
-   The original also contained an empty, hidden Webflow CMS collection list
-   (rendered "No items found.") — it produced no visible output, so it is omitted.
+   Two columns pushed to the far left and right: a main column (contact + site)
+   and a legal column, each a vertical list, under the copyright line.
    ============================================================================= */
 
 import Link from "next/link";
-import { FOOTER_LINKS } from "@/lib/site";
+import { FOOTER_LINKS_MAIN, FOOTER_LINKS_LEGAL } from "@/lib/site";
+
+type FooterLink =
+  | (typeof FOOTER_LINKS_MAIN)[number]
+  | (typeof FOOTER_LINKS_LEGAL)[number];
+
+function renderFooterLink(link: FooterLink) {
+  if ("external" in link && link.external) {
+    return (
+      <li key={link.label}>
+        <a target="_blank" rel="noopener noreferrer" href={link.href} className="footer-link">
+          {link.label}
+        </a>
+      </li>
+    );
+  }
+  if (link.href.startsWith("mailto:")) {
+    return (
+      <li key={link.label}>
+        <a href={link.href} className="footer-link">
+          {link.label}
+        </a>
+      </li>
+    );
+  }
+  return (
+    <li key={link.label}>
+      <Link href={link.href} className="footer-link">
+        {link.label}
+      </Link>
+    </li>
+  );
+}
 
 export function Footer() {
   return (
     <footer className="footer">
       <div className="footer-inner">
-        <div>© 2026 Jorvik Web Dev · Made in York. Powered by tea.</div>
-        <ul role="list" className="footer-links">
-          {FOOTER_LINKS.map((link) =>
-            "external" in link && link.external ? (
-              <li key={link.label}>
-                <a target="_blank" rel="noopener noreferrer" href={link.href} className="footer-link">
-                  {link.label}
-                </a>
-              </li>
-            ) : link.href.startsWith("mailto:") ? (
-              <li key={link.label}>
-                <a href={link.href} className="footer-link">
-                  {link.label}
-                </a>
-              </li>
-            ) : (
-              <li key={link.label}>
-                <Link href={link.href} className="footer-link">
-                  {link.label}
-                </Link>
-              </li>
-            )
-          )}
-        </ul>
+        <div className="footer-copy">© 2026 Jorvik Web Dev · Made in York. Powered by tea.</div>
+        <div className="footer-cols">
+          <ul role="list" className="footer-links footer-col">
+            {FOOTER_LINKS_MAIN.map(renderFooterLink)}
+          </ul>
+          <ul role="list" className="footer-links footer-col">
+            {FOOTER_LINKS_LEGAL.map(renderFooterLink)}
+          </ul>
+        </div>
       </div>
     </footer>
   );
