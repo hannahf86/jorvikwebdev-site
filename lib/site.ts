@@ -39,13 +39,17 @@ export const NAV_CARD_LINKS = [
   { label: "Tips & Tricks", href: "/tips-tricks", className: "spark-large-card-link-1 is-2" },
 ] as const;
 
-/** Footer links (mirrors the original footer). */
-export const FOOTER_LINKS = [
+/** Footer links — left column (contact + site). */
+export const FOOTER_LINKS_MAIN = [
+  { label: SITE.email, href: `mailto:${SITE.email}` },
   { label: "Services", href: "/#services" },
   { label: "Reviews", href: "/#reviews" },
   { label: "Developer portfolio", href: SITE.developerPortfolio, external: true },
-  { label: SITE.email, href: `mailto:${SITE.email}` },
+] as const;
+
+/** Footer links — right column (legal). */
+export const FOOTER_LINKS_LEGAL = [
   { label: "Privacy Policy", href: "/legal/privacy-policy" },
-  { label: "Terms & Conditions", href: "/legal/terms-conditions-jorvik-web-dev" },
   { label: "Cookie Policy", href: "/legal/cookie-policy-jorvik-web-dev" },
+  { label: "Terms & Conditions", href: "/legal/terms-conditions-jorvik-web-dev" },
 ] as const;

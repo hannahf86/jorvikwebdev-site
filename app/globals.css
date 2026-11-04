@@ -271,3 +271,24 @@ summary:focus-visible {
   color: #54514d;
   cursor: default;
 }
+
+/* --- Footer: copyright on top, then two link columns pushed to the far left
+       and right, each a vertical list. --- */
+.footer-inner {
+  flex-direction: column;
+  align-items: stretch;
+}
+.footer-cols {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem 2rem;
+  width: 100%;
+}
+.footer-col {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  row-gap: 0.75rem;
+  column-gap: 0;
+}
