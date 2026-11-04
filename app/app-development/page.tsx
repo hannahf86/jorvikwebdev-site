@@ -56,6 +56,14 @@ const APPS: {
     href: null,
   },
   {
+    name: "Tiro",
+    purpose: "Website monitoring & audits",
+    intro:
+      "A simple dashboard for keeping client websites healthy. Uptime, SSL, response time and SEO reports, all watched in one place.",
+    image: "/images/app-tiro.webp",
+    href: null,
+  },
+  {
     name: "Wise Mind",
     purpose: "DBT skills app",
     intro:

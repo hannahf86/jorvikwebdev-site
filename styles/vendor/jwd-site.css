@@ -4243,7 +4243,7 @@ figcaption {
 .reel-track {
   will-change: transform;
   flex-direction: column;
-  row-gap: 0.875rem;
+  row-gap: 1.5rem;
   display: flex;
 }
 
