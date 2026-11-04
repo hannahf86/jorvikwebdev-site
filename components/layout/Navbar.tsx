@@ -131,11 +131,8 @@ export function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary w-button"
-            style={open ? { visibility: "hidden" } : undefined}
-            aria-hidden={open || undefined}
-            tabIndex={open ? -1 : undefined}
           >
-            Book a call
+            {open ? "Get in touch" : "Book a call"}
           </a>
           <button
             type="button"
