@@ -12,7 +12,7 @@ import { NEWS_POSTS } from "@/lib/news";
 export const metadata = pageMetadata({
   title: "Latest News | Web Design in York | Jorvik Web Dev",
   description:
-    "Plain English web design and business growth tips from Jorvik Web Dev. No jargon, just practical advice you can actually use.",
+    "News, project write-ups and behind-the-scenes updates from Jorvik Web Dev, a small web design studio based in York.",
   path: "/latest-news",
 });
 

@@ -7,7 +7,7 @@ import { pageMetadata } from "@/lib/seo";
 import { NewsletterCta } from "@/components/sections/home/NewsletterCta";
 
 export const metadata = pageMetadata({
-  title: "Tips & Tricks — Web Design Advice for Small Businesses | Jorvik Web Dev",
+  title: "Tips & Tricks: Web Design Advice | Jorvik Web Dev",
   description:
     "Plain English web design and business growth tips from Jorvik Web Dev. No jargon, just practical advice you can actually use.",
   path: "/tips-tricks",

@@ -7,7 +7,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata({
   title: "Find my web design service | Jorvik Web Dev",
   description:
-    "Not sure which web design service you need? Answer a few quick questions and we'll point you to the right fit — website, SEO, UX, hosting, training or maintenance.",
+    "Not sure which web design service you need? Answer a few questions and we'll point you to the right fit: website, SEO, UX, hosting, training or maintenance.",
   path: "/find-my-web-design-service",
 });
 

@@ -13,7 +13,7 @@ import { NewsletterCta } from "@/components/sections/home/NewsletterCta";
 export const metadata = pageMetadata({
   title: "Webflow Editor Changes | Jorvik Web Dev",
   description:
-    "What the latest Webflow Editor changes mean for you and how you manage your website.",
+    "What the latest Webflow Editor changes mean for you, and simple steps to keep managing your own website with confidence.",
   path: "/news/webflow-editor-changes",
 });
 
