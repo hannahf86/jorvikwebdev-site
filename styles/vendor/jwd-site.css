@@ -9411,4 +9411,24 @@ figcaption {
   align-self: center;
 }
 
+/* Desktop mega-menu: make the two cards fill the column so the bottom card's
+   bottom lines up with the last nav link. Scoped to >=992px (the side-by-side
+   layout) so tablet/mobile stacking is untouched. */
+@media screen and (min-width: 992px) {
+  .spark-container-2.spark-flexed {
+    align-items: stretch;
+  }
+
+  .spark-large-card-link-2,
+  .spark-large-card-link-1,
+  .spark-large-card-link-1.is-2 {
+    height: auto;
+    min-height: 0;
+    flex: 1 1 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-size: cover;
+  }
+}
+
 
