@@ -34,37 +34,41 @@ const APPS: {
     purpose: "Shame-free debt tracker",
     intro:
       "My own app under Sael North — a calm, shame-free debt tracker for neurodivergent people, designed for your worst day, not your best.",
-    image: "/images/project-mirian.webp",
-    srcSet:
-      "/images/project-mirian-p-500.webp 500w, /images/project-mirian-p-800.webp 800w, /images/project-mirian-p-1080.webp 1080w, /images/project-mirian.webp 1366w",
+    image: "/images/app-mirian.webp",
     href: null,
   },
   {
     name: "Lindon",
-    purpose: "Coming soon",
-    intro: "Details coming soon.",
-    image: null,
+    purpose: "Music teaching studio manager",
+    intro:
+      "An all-in-one dashboard for music teachers — lessons, students, invoices, exams and income, calmly in one place.",
+    image: "/images/app-lindon.webp",
     href: null,
   },
   {
+    // NOTE: image is the "Wise Mind" DBT app — confirm Enyn ↔ Wise Mind (vs Tiro).
     name: "Enyn",
-    purpose: "Coming soon",
-    intro: "Details coming soon.",
-    image: null,
+    purpose: "DBT skills app",
+    intro:
+      "A warm DBT skills app under Sael North — learn skills at your own pace, build a personal toolkit, and reflect without pressure.",
+    image: "/images/app-wise-mind.webp",
     href: null,
   },
   {
+    // NOTE: image is the "Studio overview" dashboard — confirm Tiro ↔ Studio (vs Enyn).
     name: "Tiro",
-    purpose: "Coming soon",
-    intro: "Details coming soon.",
-    image: null,
+    purpose: "Studio & project manager",
+    intro:
+      "A calm operations hub for a solo studio — projects, clients, tasks, invoices and time, all in one clear overview.",
+    image: "/images/app-studio.webp",
     href: null,
   },
   {
     name: "Mereth",
-    purpose: "Coming soon",
-    intro: "Details coming soon.",
-    image: null,
+    purpose: "Music festival entries platform",
+    intro:
+      "A friendly entry platform for music festivals — families browse the syllabus, find the right class, and enter and pay securely.",
+    image: "/images/app-mereth.webp",
     href: null,
   },
 ];
