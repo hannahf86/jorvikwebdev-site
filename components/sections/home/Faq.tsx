@@ -5,7 +5,7 @@ export function Faq() {
     <section className="sec-faq">
       <div className="wrap">
         <div className="eyebrow">Questions, answered honestly</div>
-        <h2 className="sec-title">The stuff you&#x27;re <span className="hl-teal">wondering</span></h2>
+        <h2 className="sec-title">Good things <span className="hl-teal">to know</span></h2>
         <div className="faq-list">
           <div className="faq-item">
             <div className="faq-q">How long does a website take to build?<span className="faq-plus">+</span></div>

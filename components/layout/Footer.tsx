@@ -43,7 +43,6 @@ export function Footer() {
   return (
     <footer className="footer">
       <div className="footer-inner">
-        <div className="footer-copy">© 2026 Jorvik Web Dev · Made in York. Powered by tea.</div>
         <div className="footer-cols">
           <ul role="list" className="footer-links footer-col">
             {FOOTER_LINKS_MAIN.map(renderFooterLink)}
@@ -52,6 +51,7 @@ export function Footer() {
             {FOOTER_LINKS_LEGAL.map(renderFooterLink)}
           </ul>
         </div>
+        <div className="footer-copy">© 2026 Jorvik Web Dev · Made in York. Powered by tea.</div>
       </div>
     </footer>
   );

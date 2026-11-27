@@ -4,8 +4,8 @@ export function Reviews() {
   return (
     <section id="reviews" className="sec-reviews">
       <div className="wrap">
-        <div className="eyebrow">Don&#x27;t just take our word for it</div>
-        <h2 className="sec-title">Kind words from <span className="hl-green">kind people</span></h2>
+        <div className="eyebrow">Reviews</div>
+        <h2 className="sec-title">What my <span className="hl-green">clients say</span></h2>
         <div className="reviews-badge"><span className="badge-stars">★★★★★</span> 5.0 on Google</div>
         <div className="reviews-grid">
           <div className="review-card">
