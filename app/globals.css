@@ -592,3 +592,8 @@ summary:focus-visible {
   width: 1.85rem;
   height: 1.85rem;
 }
+
+/* Portrait caption: make the name a touch bigger than the role line */
+.sticker-name {
+  font-size: 1.15rem;
+}
