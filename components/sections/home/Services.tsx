@@ -30,7 +30,7 @@ export function Services() {
                   <li className="price-li"><span className="tick-1">✓</span>On-page &amp; technical SEO</li>
                   <li className="price-li"><span className="tick-1">✓</span>Image optimisation</li>
                   <li className="price-li"><span className="tick-1">✓</span>One contact form</li>
-                  <li className="price-li price-li-note">Copywriting &amp; content (you provide it we build the moment it lands)</li>
+                  <li className="price-li price-li-note">Copywriting &amp; content (you provide it, I build the moment it lands)</li>
                 </ul>
                 <a href="#contact" className="btn-outline-ink svc-website">Choose FastTrack</a>
               </div>
@@ -122,7 +122,7 @@ export function Services() {
             </div>
           </div>
           <div className="tab-panel panel-maint">
-            <p className="panel-strap">Need to keep your website active but don&#x27;t have time to do it yourself? We can do that for you!</p>
+            <p className="panel-strap">Need to keep your website active but don&#x27;t have time to do it yourself? I can do that for you!</p>
             <div className="price-grid-3">
               <div className="price-card">
                 <h3 className="price-name">Watch</h3>

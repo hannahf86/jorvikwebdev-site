@@ -106,7 +106,7 @@ export function ContactModal() {
                 value={service}
                 onChange={(e) => setService(e.target.value)}
               >
-                <option value="">What can we help with?</option>
+                <option value="">What can I help with?</option>
                 <option value="website">Web Design</option>
                 <option value="ux">UX </option>
                 <option value="seo">SEO</option>

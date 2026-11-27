@@ -9,7 +9,7 @@ export function Why() {
         <div className="why-list">
           <div className="why-row">
             <div className="why-head">
-              <div className="why-title"><span className="why-num">01</span>We train you</div>
+              <div className="why-title"><span className="why-num">01</span>I train you</div>
               <div className="why-chev">⌄</div>
             </div>
             <div className="why-body">
@@ -27,7 +27,7 @@ export function Why() {
             <div className="why-body">
               <div className="why-body-inner">
                 <div className="mini-icon-service-div"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 0 0 0-8c-2 0-4 1.33-6 4Z" /></svg></div>
-                <p className="why-p">Clear communication, structured processes, no overwhelming jargon-dumps. We work the way brains actually work — including the wonderfully wired ones.</p>
+                <p className="why-p">Clear communication, structured processes, no overwhelming jargon-dumps. I work the way brains actually work — including the wonderfully wired ones.</p>
               </div>
             </div>
           </div>

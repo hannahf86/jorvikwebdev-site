@@ -26,7 +26,7 @@ export function Cta() {
               Book a free 30-min chat →
             </a>
           </div>
-          <p className="cta-subnote">Prefer email? hello@jorvikweb.dev · We usually reply within two working days</p>
+          <p className="cta-subnote">Prefer email? hello@jorvikweb.dev · I usually reply within two working days</p>
         </div>
         <ContactForm />
       </div>

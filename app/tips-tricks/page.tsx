@@ -66,7 +66,7 @@ export default function TipsTricksPage() {
         <div className="tt-wrap">
           <div className="tt-cta-inner">
             <h2 className="tt-cta-title">Want someone to just <span className="tt-cta-hl">do it for you?</span></h2>
-            <p className="tt-cta-sub">Reading about SEO is one thing. Having it sorted while you focus on running your business is another. That&#x27;s what we&#x27;re here for.</p>
+            <p className="tt-cta-sub">Reading about SEO is one thing. Having it sorted while you focus on running your business is another. That&#x27;s what I&#x27;m here for.</p>
             <div className="tt-cta-row">
               <a target="_blank" rel="noopener noreferrer" href="https://calendly.com/hannah-jwd/30min" className="tt-cta-btn">Book a free chat →</a>
               <Link href="/resources" className="tt-cta-btn tt-cta-btn-ghost">Grab a free resource</Link>
