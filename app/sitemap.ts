@@ -19,6 +19,7 @@ const PATHS = [
   "/news/webflow-editor-changes",
   "/news/why-i-built-my-own-client-portal",
   "/news/mirian-building-a-debt-tracker-for-the-worst-day",
+  "/news/busy-winter-ahead-grow-web-engine",
   "/legal/privacy-policy",
   "/legal/terms-conditions-jorvik-web-dev",
   "/legal/cookie-policy-jorvik-web-dev",
