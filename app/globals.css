@@ -411,7 +411,10 @@ summary:focus-visible {
   overscroll-behavior: contain;
 }
 .pf-lightbox-img {
-  width: min(880px, 94vw);
+  width: auto;
+  /* Cap display at 880px but never upscale past the image's native width,
+     so low-resolution captures stay crisp instead of blurring. */
+  max-width: min(880px, 94vw);
   height: auto;
   display: block;
   border-radius: 6px;

@@ -40,11 +40,6 @@ const GROUPS: PortfolioGroup[] = [
         caption: "Feel Good Menopause — menopause education & training",
       },
       {
-        src: "/images/portfolio-wardrobe.webp",
-        alt: "The Beautiful Wardrobe Company landing page design",
-        caption: "The Beautiful Wardrobe Company — bespoke fitted furniture",
-      },
-      {
         src: "/images/portfolio-lucent.webp",
         alt: "Lucent biopharma medical affairs landing page design",
         caption: "Lucent — specialist medical expertise for biopharma",
@@ -53,6 +48,11 @@ const GROUPS: PortfolioGroup[] = [
         src: "/images/portfolio-youwillbe.webp",
         alt: "You Will Be CIC community arts landing page design",
         caption: "You Will Be CIC — creative community projects",
+      },
+      {
+        src: "/images/portfolio-wardrobe.webp",
+        alt: "The Beautiful Wardrobe Company landing page design",
+        caption: "The Beautiful Wardrobe Company — bespoke fitted furniture",
       },
     ],
   },
