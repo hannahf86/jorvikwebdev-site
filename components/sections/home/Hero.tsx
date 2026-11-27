@@ -8,7 +8,7 @@ export function Hero() {
         <div>
           <div className="hero-eyebrow">Web design studio · York, UK</div>
           <h1 className="hero-title"><span className="hero-line"><span className="hw-white">Websites</span></span><span className="hero-line"><span className="hw-green">that work</span></span><span className="hero-line"><span className="hw-teal">for</span> <span className="hw-orange">you</span></span></h1>
-          <p className="hero-sub">I&#x27;m a York based UX engineer which means I design and build websites that help customers reach their goals quickly and I create workflows for your business that make digital life that much easier.</p>
+          <p className="hero-sub">I&#x27;m a York based UX engineer which means I design and build websites that help customers reach their goals on your site quickly and I create workflows for your business that make digital life that much easier.</p>
           <div className="hero-actions">
             <a target="_blank" rel="noopener noreferrer" href="https://calendly.com/hannah-jwd/30min" className="btn-primary">Book a free chat →</a>
             <a href="#services" className="btn-ghost">See pricing</a>
