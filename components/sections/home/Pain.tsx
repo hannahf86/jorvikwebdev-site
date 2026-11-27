@@ -11,7 +11,7 @@ export function Pain() {
           <div className="pain-card-home">
             <div className="mini-icon-service-div"><img src="/images/fast.svg" loading="lazy" alt="" /></div>
             <h3 className="card-h">&quot;I don&#x27;t have time for this&quot;</h3>
-            <p className="card-p">Between actual work, family, and the 47 other hats you wear as a small business owner, the website always lands at the bottom of the list. We get it, that&#x27;s literally why we exist.</p>
+            <p className="card-p">Most of us wear too many hats already, web designer shouldn&#x27;t be one of them</p>
           </div>
           <div className="pain-card-home">
             <div className="mini-icon-service-div"><img src="/images/custom.svg" loading="lazy" alt="" /></div>
