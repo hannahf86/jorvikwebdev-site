@@ -49,9 +49,8 @@ export function Services() {
               </div>
               <div className="price-card">
                 <h3 className="price-name">Custom</h3>
-                <p className="price-blurb">E-commerce or something bigger and bolder? Let&#x27;s build it.</p>
+                <p className="price-blurb">This could include web apps and e-commerce, priced and scoped per project</p>
                 <div className="price-row"><span className="price-cta">Get in touch</span></div>
-                <p className="price-note">This could include web apps and e-commerce, priced and scoped per project</p>
                 <ul role="list" className="price-list">
                   <li className="price-li"><span className="tick-1">✓</span>Larger, bespoke sites</li>
                   <li className="price-li"><span className="tick-1">✓</span>Web apps</li>
