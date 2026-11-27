@@ -34,6 +34,16 @@ const GROUPS: PortfolioGroup[] = [
         alt: "Hollow Ash dark sky glamping landing page design",
         caption: "Hollow Ash — dark sky glamping",
       },
+      {
+        src: "/images/portfolio-feelgood.webp",
+        alt: "Feel Good Menopause landing page design",
+        caption: "Feel Good Menopause — menopause education & training",
+      },
+      {
+        src: "/images/portfolio-wardrobe.webp",
+        alt: "The Beautiful Wardrobe Company landing page design",
+        caption: "The Beautiful Wardrobe Company — bespoke fitted furniture",
+      },
     ],
   },
   {
