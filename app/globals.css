@@ -572,15 +572,10 @@ summary:focus-visible {
   font-size: 1.15rem;
 }
 
-/* "How it works" step arrows — flowing orange dashes that travel toward the next step */
-@media (prefers-reduced-motion: no-preference) {
-  .step-arrow path {
-    stroke-dasharray: 7 5;
-    animation: step-arrow-flow 1s linear infinite;
-  }
-  @keyframes step-arrow-flow {
-    to { stroke-dashoffset: -12; }
-  }
+/* Remove the green glow (box-shadow) under the primary buttons */
+.btn-primary,
+.btn-card-primary {
+  box-shadow: none;
 }
 
 /* About heading: first two lines (name + role) a touch larger than the rest.

@@ -12,19 +12,19 @@ export function Process() {
             <h3 className="step-h">Free chat</h3>
             <p className="step-p">A friendly, no-pressure call about your business and what your website needs to do. Tea optional but encouraged.</p>
           </div>
-          <div className="step-arrow arrow-1"><svg viewBox="0 0 64 36" aria-hidden="true"><path d="M4 18 H50 M41 9 L55 18 L41 27" /></svg></div>
+          <div className="step-arrow arrow-1"><svg viewBox="0 0 64 24" aria-hidden="true"><path d="M3 12 C 14 7, 24 17, 36 12 S 48 8, 52 12 M44 6 L54 12 L44 18" /></svg></div>
           <div className="step">
             <div className="step-num-t">02</div>
             <h3 className="step-h">Plan &amp; design</h3>
             <p className="step-p">I map the pages, the user journey, and the design, and explain every decision in plain English along the way.</p>
           </div>
-          <div className="step-arrow arrow-2"><svg viewBox="0 0 64 36" aria-hidden="true"><path d="M4 18 H50 M41 9 L55 18 L41 27" /></svg></div>
+          <div className="step-arrow arrow-2"><svg viewBox="0 0 64 24" aria-hidden="true"><path d="M3 12 C 14 7, 24 17, 36 12 S 48 8, 52 12 M44 6 L54 12 L44 18" /></svg></div>
           <div className="step">
             <div className="step-num-g">03</div>
             <h3 className="step-h">Build &amp; polish</h3>
             <p className="step-p">Your site comes to life in your chosen platform, with SEO foundations baked in from day one. No bolt-ons.</p>
           </div>
-          <div className="step-arrow arrow-3"><svg viewBox="0 0 64 36" aria-hidden="true"><path d="M4 18 H50 M41 9 L55 18 L41 27" /></svg></div>
+          <div className="step-arrow arrow-3"><svg viewBox="0 0 64 24" aria-hidden="true"><path d="M3 12 C 14 7, 24 17, 36 12 S 48 8, 52 12 M44 6 L54 12 L44 18" /></svg></div>
           <div className="step">
             <div className="step-num-o">04</div>
             <h3 className="step-h">Launch &amp; learn</h3>

@@ -27,7 +27,12 @@ export const NEWS_POSTS: NewsPost[] = [
     date: "Fri 27th Nov '26",
     dateISO: "2026-11-27",
     category: "Events",
-    img: { src: "/images/york-minster-cathedral-view.webp" },
+    img: {
+      src: "/images/IMG_0045.webp",
+      sizes: "(max-width: 5719px) 100vw, 5719px",
+      srcSet:
+        "/images/IMG_0045-p-500.webp 500w, /images/IMG_0045-p-800.webp 800w, /images/IMG_0045-p-1080.webp 1080w, /images/IMG_0045-p-1600.webp 1600w, /images/IMG_0045-p-2000.webp 2000w, /images/IMG_0045-p-2600.webp 2600w, /images/IMG_0045-p-3200.webp 3200w, /images/IMG_0045.webp 5719w",
+    },
   },
   {
     title: "Mirian: Building a Debt Tracker for the Worst Day",
