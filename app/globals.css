@@ -594,11 +594,18 @@ summary:focus-visible {
   color: #0c0702;
 }
 
-/* Mobile nav (<=479px): keep the menu labels white like desktop
-   (vendor CSS turns them green under this breakpoint) */
+/* Mobile nav (<=479px): match desktop — white labels + chevrons, and size the
+   Resources/Tips card links like the main nav items (vendor makes them green
+   and smaller under this breakpoint) */
 @media screen and (max-width: 479px) {
   .spark-mega-nav-link-label,
   .spark-mega-nav-link-label:lang(en) {
     color: #fff;
+  }
+  .spark-icon.spark-large-icon {
+    color: #fff;
+  }
+  .spark-sub-text-in-card-link-2 {
+    font-size: 1.35rem;
   }
 }
