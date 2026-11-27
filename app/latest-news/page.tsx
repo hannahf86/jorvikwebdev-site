@@ -22,8 +22,8 @@ export default function LatestNewsPage() {
       <section className="tt-hero">
         <div className="tt-wrap">
           <div id="w-node-d6233641-cea8-3d85-f5a7-b1b8540deb9a-a2cd874e" className="tt-eyebrow">Latest News</div>
-          <h1 id="w-node-d6233641-cea8-3d85-f5a7-b1b8540deba1-a2cd874e" className="tt-hero-title"><span className="tt-hw tt-hw-w">What have</span><span className="tt-hw tt-hw-g">We Been</span><span className="tt-hw tt-hw-t">Doing In</span><span className="text-span-65">North Yorkshrie</span></h1>
-          <p id="w-node-d6233641-cea8-3d85-f5a7-b1b8540deba3-a2cd874e" className="tt-hero-sub">Read about our latest shenanigans in York and North Yorkshire. We train small business owners as part of larger training days and on an individual basis</p>
+          <h1 id="w-node-d6233641-cea8-3d85-f5a7-b1b8540deba1-a2cd874e" className="tt-hero-title"><span className="tt-hw tt-hw-w">What have</span><span className="tt-hw tt-hw-g">I Been</span><span className="tt-hw tt-hw-t">Doing In</span><span className="text-span-65">North Yorkshire</span></h1>
+          <p id="w-node-d6233641-cea8-3d85-f5a7-b1b8540deba3-a2cd874e" className="tt-hero-sub">Read about my latest shenanigans in York and North Yorkshire. I train small business owners as part of larger training days and on an individual basis</p>
           <div id="w-node-_1e16198f-97ec-a0dc-1253-5f45b64037cb-a2cd874e" className="tt-hero-visual"><img src="/images/news-web-design.png" alt="JWD illustrated computer" sizes="(max-width: 2048px) 100vw, 2048px" srcSet="/images/news-web-design-p-500.png 500w, /images/news-web-design-p-800.png 800w, /images/news-web-design-p-1080.png 1080w, /images/news-web-design-p-1600.png 1600w, /images/news-web-design-p-2000.png 2000w, /images/news-web-design.png 2048w" className="tt-computer" /></div>
         </div>
       </section>
@@ -52,7 +52,7 @@ export default function LatestNewsPage() {
         <div className="tt-wrap">
           <div className="tt-cta-inner">
             <h2 className="tt-cta-title">Want someone to just <span className="tt-cta-hl">do it for you?</span></h2>
-            <p className="tt-cta-sub">Reading about SEO is one thing. Having it sorted while you focus on running your business is another. That&#x27;s what we&#x27;re here for.</p>
+            <p className="tt-cta-sub">Reading about SEO is one thing. Having it sorted while you focus on running your business is another. That&#x27;s what I&#x27;m here for.</p>
             <div className="tt-cta-row">
               <a target="_blank" rel="noopener noreferrer" href="https://calendly.com/hannah-jwd/30min" className="tt-cta-btn">Book a free chat →</a>
               <Link href="/resources" className="tt-cta-btn tt-cta-btn-ghost">Grab a free resource</Link>

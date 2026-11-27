@@ -87,7 +87,7 @@ export function ContactForm() {
           </div>
           <div className="form-field-full">
             <label htmlFor="contact-message" className="form-label-1">
-              Tell us a bit more <span className="form-opt">(as much or as little as you like)</span>
+              Tell me a bit more <span className="form-opt">(as much or as little as you like)</span>
             </label>
             <textarea placeholder="What does your business do? What's bugging you about your current setup?" maxLength={5000} id="contact-message" name="message" className="form-textarea-1 w-input" />
           </div>
