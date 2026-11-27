@@ -4,9 +4,9 @@ export function Pain() {
   return (
     <section className="sec-pain">
       <div className="wrap">
-        <div className="eyebrow">Sound familiar?</div>
+        <div className="eyebrow">How I can help you</div>
         <h2 className="sec-title">Your website shouldn&#x27;t feel like a <span className="hl-teal">second job</span></h2>
-        <p className="sec-intro">You started your business to do the thing you love, not to spend Sunday nights googling &quot;why is my website slow&quot; with a cold cup of tea.</p>
+        <p className="sec-intro">You started your business to do the thing you love, not spend Sunday nights googling &#x27;why is my website slow&#x27;</p>
         <div className="pain-grid">
           <div className="pain-card-home">
             <div className="mini-icon-service-div"><img src="/images/fast.svg" loading="lazy" alt="" /></div>
