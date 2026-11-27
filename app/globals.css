@@ -585,3 +585,10 @@ summary:focus-visible {
 .tt-hw-o {
   color: #f7931e;
 }
+
+/* "I don't speak developer" code icon fills its canvas more than the other
+   icons; shrink it so its padding matches theirs */
+.pain-icon-code {
+  width: 1.85rem;
+  height: 1.85rem;
+}
