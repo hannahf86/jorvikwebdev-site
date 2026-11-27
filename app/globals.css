@@ -393,6 +393,20 @@ summary:focus-visible {
   line-height: 1.4;
   color: #54514d;
 }
+.pf-caption-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #54514d;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+.pf-caption-link:hover,
+.pf-caption-link:focus-visible {
+  color: #217b7e;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 
 /* Lightbox overlay */
 .pf-lightbox {
