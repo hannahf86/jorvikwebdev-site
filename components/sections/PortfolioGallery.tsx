@@ -10,17 +10,8 @@
 
 import { useCallback, useEffect, useState } from "react";
 
-type Item = { src: string; alt: string; caption?: string; href?: string };
+type Item = { src: string; alt: string; caption?: string };
 export type PortfolioGroup = { title: string; blurb?: string; items: Item[] };
-
-function ExternalArrow() {
-  return (
-    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M7 17 17 7" />
-      <path d="M9 7h8v8" />
-    </svg>
-  );
-}
 
 function ExpandIcon() {
   return (
@@ -72,23 +63,7 @@ export function PortfolioGallery({ groups }: { groups: PortfolioGroup[] }) {
                       <ExpandIcon />
                     </span>
                   </button>
-                  {item.caption ? (
-                    <figcaption className="pf-caption">
-                      {item.href ? (
-                        <a
-                          href={item.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="pf-caption-link"
-                        >
-                          {item.caption}
-                          <ExternalArrow />
-                        </a>
-                      ) : (
-                        item.caption
-                      )}
-                    </figcaption>
-                  ) : null}
+                  {item.caption ? <figcaption className="pf-caption">{item.caption}</figcaption> : null}
                 </figure>
               ))}
             </div>
