@@ -19,7 +19,7 @@ export function About() {
           <a target="_blank" rel="noopener noreferrer" href="https://hfdesign.co.uk" className="btn-outline-light">See my developer portfolio ↗</a>
           <div className="bio-trust">
             <div className="trust-item-sm"><span className="trust-dot"></span>Webflow Partner</div>
-            <div className="trust-item-sm"><span className="trust-dot"></span>Google Approved UX Designer</div>
+            <div className="trust-item-sm"><span className="trust-dot"></span>Google Certified UX Designer</div>
             <div className="trust-item-sm"><span className="trust-dot"></span>Meta Certified Social Media Manager</div>
             <div className="trust-item-sm"><span className="trust-dot"></span>Fullstack Developer</div>
           </div>

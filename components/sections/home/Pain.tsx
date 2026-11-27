@@ -4,7 +4,7 @@ export function Pain() {
   return (
     <section className="sec-pain">
       <div className="wrap">
-        <div className="eyebrow">How I can help you</div>
+        <div className="eyebrow">Common problems from our clients</div>
         <h2 className="sec-title">Your website shouldn&#x27;t feel like a <span className="hl-teal">second job</span></h2>
         <div className="pain-grid">
           <div className="pain-card-home">
