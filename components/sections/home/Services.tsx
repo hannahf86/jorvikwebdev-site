@@ -11,8 +11,6 @@ export function Services() {
           <div className="tab-btn tab-active tab-web">Web Design</div>
           <div className="tab-btn tab-ux">User Experience</div>
           <div className="tab-btn tab-seo">SEO</div>
-          <div className="tab-btn tab-host">Hosting &amp; Admin</div>
-          <div className="tab-btn tab-train">Training</div>
           <div className="tab-btn tab-maint">Maintenance</div>
         </div>
         <div className="tab-panels">
@@ -89,7 +87,7 @@ export function Services() {
                   <li className="price-li"><span className="tick-1">✓</span>Personalised report with next steps</li>
                   <li className="price-li"><span className="tick-1">✓</span>Advice only — no upsell</li>
                 </ul>
-                <a href="#contact" className="btn-teal svc-ux">Choose UX Deep Dive</a>
+                <a href="#contact" className="btn-outline-ink svc-ux">Choose UX Deep Dive</a>
               </div>
             </div>
           </div>
@@ -107,7 +105,7 @@ export function Services() {
                   <li className="price-li"><span className="tick-1">✓</span>Report with clear next steps</li>
                   <li className="price-li"><span className="tick-1">✓</span>No selling, just fixes</li>
                 </ul>
-                <a href="#contact" className="btn-teal svc-seo">Choose SEO Repair</a>
+                <a href="#contact" className="btn-outline-ink svc-seo">Choose SEO Repair</a>
               </div>
               <div className="price-card">
                 <h3 className="price-name">Keyword Research</h3>
@@ -122,56 +120,6 @@ export function Services() {
                 <a href="#contact" className="btn-outline-ink svc-seo">Choose Keyword Research</a>
               </div>
             </div>
-          </div>
-          <div className="tab-panel panel-host">
-            <p className="panel-strap">Looked-after, eco-friendly hosting, domains sorted properly, and hands-on help with the fiddly setup jobs that never quite behave themselves.</p>
-            <div className="mini-grid">
-              <div className="mini-card">
-                <div className="mini-icon-service-div"><img src="/images/leaf-1.svg" loading="lazy" alt="" className="mini-icon-service" /></div>
-                <h4 className="mini-h">Eco Hosting</h4>
-                <p className="mini-price">£12 / month</p>
-                <p className="card-p">Green, reliable hosting at a price that&#x27;s fixed forever — unless our own costs go up, and we&#x27;ll always tell you why.</p>
-                <a href="#contact" className="btn-card-primary svc-hosting">Get hosting sorted →</a>
-              </div>
-              <div className="mini-card">
-                <div className="mini-icon-service-div"><img src="/images/domain.svg" loading="lazy" alt="" className="mini-icon-service" /></div>
-                <h4 className="mini-h">Domain Setup</h4>
-                <p className="mini-price">£20 / year</p>
-                <p className="card-p">Sorted through Krystal.io, with a tree planted in your name. Tidy, eco-friendly, and one less thing to worry about.</p>
-                <a href="#contact" className="btn-card-primary svc-hosting">Grab your domain →</a>
-              </div>
-              <div className="mini-card">
-                <div className="mini-icon-service-div"><img src="/images/repair.svg" loading="lazy" alt="" className="mini-icon-service" /></div>
-                <h4 className="mini-h">Admin &amp; IT Fixes</h4>
-                <p className="mini-price">Get a quote for your job</p>
-                <p className="card-p">Setup and untangling for Google Analytics, Search Console, HubSpot and the rest of the tools.</p>
-                <a href="#contact" className="btn-card-primary svc-hosting">L →</a>
-              </div>
-            </div>
-          </div>
-          <div className="tab-panel panel-train">
-            <p className="panel-strap">Prefer to take the wheel? Friendly, practical training so you can run things yourself.</p>
-            <div className="mini-grid">
-              <div className="mini-card">
-                <div className="mini-icon-service-div"><img src="/images/webflow.svg" loading="lazy" alt="" className="mini-icon-service" /></div>
-                <h4 className="mini-h">Webflow Tutorial</h4>
-                <p className="mini-price">£79</p>
-                <p className="card-p">Learn to run your own Webflow site with confidence. Free when you choose a Brochure package or above.</p>
-              </div>
-              <div className="mini-card">
-                <div className="mini-icon-service-div"><img src="/images/design-setting.svg" loading="lazy" alt="" className="mini-icon-service" /></div>
-                <h4 className="mini-h">Web Design Basics</h4>
-                <p className="mini-price">£360</p>
-                <p className="card-p">Four hands-on hours for small businesses who want to design and tweak their own pages.</p>
-              </div>
-              <div className="mini-card">
-                <div className="mini-icon-service-div"><img src="/images/shopify.svg" loading="lazy" alt="" className="mini-icon-service" /></div>
-                <h4 className="mini-h">Shopify Setup &amp; Launch</h4>
-                <p className="mini-price">£650</p>
-                <p className="card-p">Two four-hour sessions to get your shop built, stocked and live — with you driving by the end.</p>
-              </div>
-            </div>
-            <a href="#contact" className="btn-card-primary svc-training">Book a training session →</a>
           </div>
           <div className="tab-panel panel-maint">
             <p className="panel-strap">Need to keep your website active but don&#x27;t have time to do it yourself? We can do that for you!</p>

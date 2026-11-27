@@ -94,8 +94,6 @@ export function HomeAnimations() {
       ["tab-web", "panel-web"],
       ["tab-ux", "panel-ux"],
       ["tab-seo", "panel-seo"],
-      ["tab-host", "panel-host"],
-      ["tab-train", "panel-train"],
       ["tab-maint", "panel-maint"],
     ];
     TABS.forEach((pair) => {
@@ -190,8 +188,6 @@ export function HomeAnimations() {
       "tab-web": "website",
       "tab-ux": "ux",
       "tab-seo": "seo",
-      "tab-host": "hosting",
-      "tab-train": "training",
       "tab-maint": "maintenance",
     };
     $$('a[href="#contact"]').forEach((a) => {

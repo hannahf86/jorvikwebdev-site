@@ -523,3 +523,10 @@ summary:focus-visible {
   line-height: 1.6;
   color: #555;
 }
+
+/* About portrait caption — more breathing room between lines */
+.sticker-caption {
+  line-height: 1.95;
+  padding-top: 1rem;
+  padding-bottom: 0.9rem;
+}
