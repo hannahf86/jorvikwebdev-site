@@ -534,32 +534,6 @@ summary:focus-visible {
   padding-bottom: 0.9rem;
 }
 
-/* "How it works" moved from the dark theme onto the site's light background */
-.sec-process {
-  color: #262626;
-  background-color: #fbfaf7;
-}
-.sec-process .sec-title-light {
-  color: #262626;
-}
-.sec-process .step {
-  background-color: #fff;
-  border-color: rgba(12, 7, 2, 0.1);
-  box-shadow: 0 0.5rem 1.25rem rgba(12, 7, 2, 0.06);
-}
-.sec-process .step-h {
-  color: #262626;
-}
-.sec-process .step-p {
-  color: #54514d;
-}
-/* dark dot overlay to suit the light background (was white dots) */
-.sec-process::before {
-  background-image:
-    radial-gradient(rgba(38, 38, 38, 0.075) 0.09375rem, transparent 0.10625rem),
-    radial-gradient(rgba(38, 38, 38, 0.045) 0.075rem, transparent 0.0875rem);
-}
-
 /* Footer: link columns spread across the top row, copyright centred at the bottom */
 .footer-cols {
   flex-basis: 100%;
@@ -596,4 +570,15 @@ summary:focus-visible {
 /* Portrait caption: make the name a touch bigger than the role line */
 .sticker-name {
   font-size: 1.15rem;
+}
+
+/* "How it works" step arrows — flowing orange dashes that travel toward the next step */
+@media (prefers-reduced-motion: no-preference) {
+  .step-arrow path {
+    stroke-dasharray: 7 5;
+    animation: step-arrow-flow 1s linear infinite;
+  }
+  @keyframes step-arrow-flow {
+    to { stroke-dashoffset: -12; }
+  }
 }
