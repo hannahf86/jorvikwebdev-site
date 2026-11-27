@@ -492,3 +492,34 @@ summary:focus-visible {
   color: var(--color-orange);
   padding-left: 1.875rem; /* 1.25rem tick + 0.625rem gap, so text lines up */
 }
+
+/* Custom card: "Get in touch" styled as a prominent green line (price stand-in) */
+.price-cta {
+  color: #4ca244;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+/* Services panel: "Choose how you pay" intro block above the price cards */
+.pay-intro {
+  margin: 0.25rem 0 1.9rem;
+}
+.pay-intro-h {
+  margin: 0 0 0.35rem;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: #262626;
+}
+.pay-intro-p {
+  margin: 0;
+  max-width: 46rem;
+  font-family: Lato, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}

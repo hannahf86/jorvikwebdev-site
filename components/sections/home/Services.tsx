@@ -18,12 +18,15 @@ export function Services() {
         <div className="tab-panels">
           <div className="tab-panel panel-active panel-web">
             <p className="panel-strap">From a speedy launch to a fully bespoke build, websites that look great and actually do their job.</p>
+            <div className="pay-intro">
+              <h3 className="pay-intro-h">Choose how you pay</h3>
+              <p className="pay-intro-p">Spread the cost across 2-6 months depending on the size of the project, no 50% deposit up front.</p>
+            </div>
             <div className="price-grid-3">
               <div className="price-card">
                 <h3 className="price-name">FastTrack</h3>
                 <p className="price-blurb">Need a site live in a week? This is the one.</p>
                 <div className="price-row"><span className="price-from">From</span><span className="price-value">£495</span></div>
-                <p className="price-note">50% deposit · balance on launch</p>
                 <ul role="list" className="price-list">
                   <li className="price-li"><span className="tick-1">✓</span>Up to 5 pages</li>
                   <li className="price-li"><span className="tick-1">✓</span>On-page &amp; technical SEO</li>
@@ -37,8 +40,7 @@ export function Services() {
                 <div className="price-tag">Most popular</div>
                 <h3 className="price-name-g">Brochure</h3>
                 <p className="price-blurb">For small businesses who want the site working for them.</p>
-                <div className="price-row"><span className="price-from">From</span><span className="price-value">£695</span></div>
-                <p className="price-note">Total divided over 2-3 months, no big deposit due</p>
+                <div className="price-row"><span className="price-from">From</span><span className="price-value">£795</span></div>
                 <ul role="list" className="price-list">
                   <li className="price-li"><span className="tick-1">✓</span>Everything in FastTrack, plus...</li>
                   <li className="price-li"><span className="tick-1">✓</span>8 pages</li>
@@ -50,15 +52,13 @@ export function Services() {
               <div className="price-card">
                 <h3 className="price-name">Custom</h3>
                 <p className="price-blurb">E-commerce or something bigger and bolder? Let&#x27;s build it.</p>
-                <div className="price-row"><span className="price-from">GET In Touch</span></div>
-                <p className="price-note">Scoped &amp; quoted to your project</p>
+                <div className="price-row"><span className="price-cta">Get in touch</span></div>
+                <p className="price-note">This could include web apps and e-commerce, priced and scoped per project</p>
                 <ul role="list" className="price-list">
-                  <li className="price-li"><span className="tick-1">✓</span>Larger, fully bespoke sites</li>
-                  <li className="price-li"><span className="tick-1">✓</span>E-commerce ready</li>
-                  <li className="price-li"><span className="tick-1">✓</span>Google Analytics &amp; Search Console set up</li>
-                  <li className="price-li"><span className="tick-1">✓</span>Custom integrations &amp; custom code</li>
-                  <li className="price-li"><span className="tick-1">✓</span>Full CMS for everything you publish</li>
-                  <li className="price-li"><span className="tick-1">✓</span>Built to grow with you</li>
+                  <li className="price-li"><span className="tick-1">✓</span>Larger, bespoke sites</li>
+                  <li className="price-li"><span className="tick-1">✓</span>Web apps</li>
+                  <li className="price-li"><span className="tick-1">✓</span>E-commerce sites</li>
+                  <li className="price-li"><span className="tick-1">✓</span>Custom code and integrations</li>
                 </ul>
                 <a href="#contact" className="btn-outline-ink svc-website">Choose Custom</a>
               </div>
