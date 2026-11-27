@@ -25,12 +25,11 @@ export function Services() {
                 <div className="price-row"><span className="price-from">From</span><span className="price-value">£495</span></div>
                 <p className="price-note">50% deposit · balance on launch</p>
                 <ul role="list" className="price-list">
-                  <li className="price-li"><span className="tick-1">✓</span>Live within 7 working days</li>
-                  <li className="price-li"><span className="tick-1">✓</span>Up to 4 pages, one clear call-to-action</li>
-                  <li className="price-li"><span className="tick-1">✓</span>On-page &amp; technical SEO basics</li>
-                  <li className="price-li"><span className="tick-1">✓</span>Image optimisation + meta titles &amp; descriptions</li>
-                  <li className="price-li"><span className="tick-1">✓</span>Schema markup baked in</li>
-                  <li className="price-li-x"><span className="dash">—</span>Copywriting &amp; content (you provide it we build the moment it lands)</li>
+                  <li className="price-li"><span className="tick-1">✓</span>Up to 5 pages</li>
+                  <li className="price-li"><span className="tick-1">✓</span>On-page &amp; technical SEO</li>
+                  <li className="price-li"><span className="tick-1">✓</span>Image optimisation</li>
+                  <li className="price-li"><span className="tick-1">✓</span>One contact form</li>
+                  <li className="price-li price-li-note">Copywriting &amp; content (you provide it we build the moment it lands)</li>
                 </ul>
                 <a href="#contact" className="btn-outline-ink svc-website">Choose FastTrack</a>
               </div>
@@ -42,11 +41,9 @@ export function Services() {
                 <p className="price-note">Total divided over 2-3 months, no big deposit due</p>
                 <ul role="list" className="price-list">
                   <li className="price-li"><span className="tick-1">✓</span>Everything in FastTrack, plus...</li>
-                  <li className="price-li"><span className="tick-1">✓</span>Up to 7 pages</li>
-                  <li className="price-li"><span className="tick-1">✓</span>Easy CMS — blog, team, services &amp; more</li>
-                  <li className="price-li"><span className="tick-1">✓</span>Simple integrations (e.g. MailerLite)</li>
-                  <li className="price-li"><span className="tick-1">✓</span>Keyword research, done with you</li>
-                  <li className="price-li"><span className="tick-1">✓</span>Free Webflow tutorial included</li>
+                  <li className="price-li"><span className="tick-1">✓</span>8 pages</li>
+                  <li className="price-li"><span className="tick-1">✓</span>Easy content management system (blog, team, services etc)</li>
+                  <li className="price-li"><span className="tick-1">✓</span>Integrations (MailerLite and HubSpot)</li>
                 </ul>
                 <a href="#contact" className="btn-card-primary svc-website">Choose Brochure</a>
               </div>

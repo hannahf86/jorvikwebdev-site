@@ -486,3 +486,9 @@ summary:focus-visible {
   margin-top: 0.1rem;
   color: var(--color-orange);
 }
+
+/* FastTrack "you provide it" note — orange, aligned under the ticked items */
+.price-li-note {
+  color: var(--color-orange);
+  padding-left: 1.875rem; /* 1.25rem tick + 0.625rem gap, so text lines up */
+}
