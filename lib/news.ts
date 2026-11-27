@@ -20,6 +20,16 @@ export type NewsPost = {
 
 export const NEWS_POSTS: NewsPost[] = [
   {
+    title: "Busy Winter Ahead: Get Set GROW, the Web Engine Webcast and More",
+    excerpt:
+      "I'm out and about a lot this winter with the York and North Yorkshire Growth Hub's new GROW programme — the Get Set GROW launch, the Web Engine webcast, a voucher scheme for one-to-one website help, and more. Here's where to find me.",
+    href: "/news/busy-winter-ahead-grow-web-engine",
+    date: "Fri 27th Nov '26",
+    dateISO: "2026-11-27",
+    category: "Events",
+    img: { src: "/images/york-minster-cathedral-view.webp" },
+  },
+  {
     title: "Mirian: Building a Debt Tracker for the Worst Day",
     excerpt:
       "Mirian is my own app under Sael North — a calm, shame-free debt tracker for neurodivergent people, designed for your worst day, not your best. Here's how it came about, and what that thinking means for your website too.",
