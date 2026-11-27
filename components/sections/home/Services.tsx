@@ -168,7 +168,6 @@ export function Services() {
             <a href="#contact" className="btn-card-primary svc-maint">Get covered →</a>
           </div>
         </div>
-        <p className="panel-footnote">Not sure which fits? <a target="_blank" rel="noopener noreferrer" href="https://calendly.com/hannah-jwd/30min" className="kicker-link">Book a free chat</a> — we&#x27;ll point you at the cheapest thing that solves your problem. Yes, really.</p>
       </div>
     </section>
   );
