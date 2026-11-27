@@ -1,0 +1,83 @@
+/* ===== PAGE: Portfolio (/portfolio) ===== */
+
+import { pageMetadata } from "@/lib/seo";
+import { PortfolioGallery, type PortfolioGroup } from "@/components/sections/PortfolioGallery";
+
+export const metadata = pageMetadata({
+  title: "Portfolio | Jorvik Web Dev",
+  description:
+    "A look at recent website and app designs by Jorvik Web Dev. Click any design to see it full length.",
+  path: "/portfolio",
+});
+
+/**
+ * Portfolio groups. Each item is a full-length screenshot; clicking it opens a
+ * lightbox. To add a design, drop its image in /public/images and add an entry.
+ */
+const GROUPS: PortfolioGroup[] = [
+  {
+    title: "Brochure websites",
+    blurb: "Sites built to tell a story and bring people through the door.",
+    items: [
+      {
+        src: "/images/portfolio-marginalia.webp",
+        alt: "Marginalia bookshop and café landing page design",
+        caption: "Marginalia — independent bookshop & café",
+      },
+      {
+        src: "/images/portfolio-ninefold.webp",
+        alt: "Ninefold gin distillery landing page design",
+        caption: "Ninefold — small-batch gin distillery",
+      },
+      {
+        src: "/images/portfolio-hollow-ash.webp",
+        alt: "Hollow Ash dark sky glamping landing page design",
+        caption: "Hollow Ash — dark sky glamping",
+      },
+    ],
+  },
+  {
+    title: "Dashboards & apps",
+    blurb: "Calm, usable tools for the day-to-day — built around how people actually work.",
+    // NOTE: placeholder images (existing app crops) until the full-length
+    // dashboard screenshots are attached — swap these three src values then.
+    items: [
+      {
+        src: "/images/app-enyn.webp",
+        alt: "Enyn client and project dashboard design",
+        caption: "Enyn — client & project dashboard",
+      },
+      {
+        src: "/images/app-mirian.webp",
+        alt: "Mirian debt tracker app design",
+        caption: "Mirian — debt tracker app",
+      },
+      {
+        src: "/images/app-lindon.webp",
+        alt: "Lindon music teaching studio dashboard design",
+        caption: "Lindon — music studio dashboard",
+      },
+    ],
+  },
+];
+
+export default function PortfolioPage() {
+  return (
+    <>
+      <section className="tt-hero">
+        <div className="tt-wrap">
+          <div className="tt-eyebrow">Portfolio</div>
+          <h1 className="tt-hero-title">
+            <span className="tt-hw tt-hw-w">A look at</span>
+            <span className="tt-hw tt-hw-g">the work.</span>
+          </h1>
+          <p className="tt-hero-sub">
+            A few recent website and app designs. Click any one to see it full length.
+          </p>
+        </div>
+      </section>
+
+      <PortfolioGallery groups={GROUPS} />
+    </>
+  );
+}
