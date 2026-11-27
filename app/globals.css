@@ -582,3 +582,12 @@ summary:focus-visible {
     to { stroke-dashoffset: -12; }
   }
 }
+
+/* About heading: first two lines (name + role) a touch larger than the rest.
+   Widen the heading toward the column so the larger lines stay on one line. */
+#about .sec-title-light {
+  max-width: 24ch;
+}
+.about-h-lg {
+  font-size: 1.08em;
+}
