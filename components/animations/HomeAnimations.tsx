@@ -238,6 +238,26 @@ export function HomeAnimations() {
     }
     $$(".nav-link,.btn-primary,.btn-ghost,.btn-teal,.btn-card-primary,.btn-outline-ink,.btn-outline-light").forEach(addUnderline);
 
+    // 10b. "How it works" step arrows — hand-drawn draw-in on scroll
+    //      (same GSAP stroke-draw as the button underline)
+    const stepArrowPaths = $$(".step-arrow path");
+    if (stepArrowPaths.length) {
+      stepArrowPaths.forEach((p) => {
+        const len = (p as unknown as SVGPathElement).getTotalLength();
+        gsap.set(p, { strokeDasharray: len, strokeDashoffset: RM ? 0 : len });
+      });
+      const procSec = $(".sec-process");
+      if (!RM && procSec) {
+        ScrollTrigger.create({
+          trigger: procSec,
+          start: "top 75%",
+          once: true,
+          onEnter: () =>
+            gsap.to(stepArrowPaths, { strokeDashoffset: 0, duration: 0.5, ease: "power2.out", stagger: 0.2 }),
+        });
+      }
+    }
+
     // 11. Vertical project reel loop ------------------------------------------
     const reel = $(".reel-track");
     if (reel && reel.children.length) {

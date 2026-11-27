@@ -24,8 +24,8 @@ export const SITE = {
  *  converted to root-relative so they work on any deploy domain). */
 export const NAV_LINKS = [
   { label: "Services", href: "/#services" },
-  { label: "Who Are We", href: "/#about" },
-  { label: "Why Us", href: "/#why" },
+  { label: "About", href: "/#about" },
+  { label: "Why JWD", href: "/#why" },
   { label: "How It Works", href: "/#process" },
   { label: "Reviews", href: "/#reviews" },
   { label: "Latest News", href: "/latest-news" },

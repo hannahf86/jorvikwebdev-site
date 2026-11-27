@@ -18,7 +18,7 @@ export const metadata = pageMetadata({
   description:
     "Where to find me this winter — the Get Set GROW launch, the Web Engine webcast, the GROW voucher scheme for website help, and Productivity through Digital Adoption days across North Yorkshire.",
   path: "/news/busy-winter-ahead-grow-web-engine",
-  ogImage: "/images/york-minster-cathedral-view.webp",
+  ogImage: "/images/IMG_0045.webp",
 });
 
 const CALENDLY = "https://calendly.com/hannah-jwd/30min";
@@ -45,8 +45,10 @@ export default function BusyWinterPostPage() {
           </p>
           <div className="tt-hero-visual">
             <img
-              src="/images/york-minster-cathedral-view.webp"
-              alt="York, home of the York and North Yorkshire Growth Hub"
+              src="/images/IMG_0045.webp"
+              srcSet="/images/IMG_0045-p-500.webp 500w, /images/IMG_0045-p-800.webp 800w, /images/IMG_0045-p-1080.webp 1080w, /images/IMG_0045-p-1600.webp 1600w, /images/IMG_0045-p-2000.webp 2000w, /images/IMG_0045-p-2600.webp 2600w, /images/IMG_0045-p-3200.webp 3200w, /images/IMG_0045.webp 5719w"
+              sizes="(max-width: 1080px) 100vw, 1080px"
+              alt="Hannah with Jack and Anja, delivering training at a York business event"
               className="tt-computer"
             />
           </div>
