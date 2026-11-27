@@ -49,13 +49,11 @@ const GROUPS: PortfolioGroup[] = [
         src: "/images/portfolio-dash-mirian.webp",
         alt: "Mirian debt tracker app design",
         caption: "Mirian — debt tracker app",
-        href: "https://www.mirian-debt-tracker.app/",
       },
       {
         src: "/images/portfolio-dash-lindon.webp",
         alt: "Lindon music teaching studio dashboard design",
         caption: "Lindon — music studio dashboard",
-        href: "https://www.musicpracticejournal.app/",
       },
     ],
   },
