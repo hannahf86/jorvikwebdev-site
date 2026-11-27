@@ -593,3 +593,12 @@ summary:focus-visible {
 .panel-footnote {
   color: #0c0702;
 }
+
+/* Mobile nav (<=479px): keep the menu labels white like desktop
+   (vendor CSS turns them green under this breakpoint) */
+@media screen and (max-width: 479px) {
+  .spark-mega-nav-link-label,
+  .spark-mega-nav-link-label:lang(en) {
+    color: #fff;
+  }
+}
