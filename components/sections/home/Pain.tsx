@@ -16,15 +16,37 @@ export function Pain() {
           <div className="pain-card-home">
             <div className="mini-icon-service-div"><img src="/images/custom.svg" loading="lazy" alt="" /></div>
             <h3 className="card-h">&quot;I don&#x27;t speak developer&quot;</h3>
-            <p className="card-p">Schemas? Meta tags? Hreflang?? <br /><br />We translate everything into plain English and train you up, so you&#x27;re never held hostage by your own website.</p>
+            <ul className="card-ticks">
+              <li>
+                <svg className="card-tick" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg>
+                <span>We translate everything into plain English</span>
+              </li>
+              <li>
+                <svg className="card-tick" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg>
+                <span>No upsells with tech speak</span>
+              </li>
+              <li>
+                <svg className="card-tick" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg>
+                <span>With handover training, we make sure you understand your website entirely</span>
+              </li>
+            </ul>
           </div>
           <div className="pain-card-home">
             <div className="mini-icon-service-div"><img src="/images/top-brand.svg" loading="lazy" alt="" /></div>
             <h3 className="card-h">&quot;Why is everything an upsell?&quot;</h3>
-            <p className="card-p">Proper SEO basics shouldn&#x27;t cost extra. With us they&#x27;re baked into every build; structured headings, alt text, meta descriptions, the lot. Comes as standard.</p>
+            <ul className="card-ticks">
+              <li>
+                <svg className="card-tick" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg>
+                <span>SEO and UX does not cost extra</span>
+              </li>
+              <li>
+                <svg className="card-tick" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg>
+                <span>Accessibility is included from day one</span>
+              </li>
+            </ul>
           </div>
         </div>
-        <p className="pain-kicker">If you nodded at any of those — <a target="_blank" rel="noopener noreferrer" href="https://calendly.com/hannah-jwd/30min" className="kicker-link">let&#x27;s have a chat</a>. It&#x27;s free, and we&#x27;re nice.</p>
+        <p className="pain-kicker">If you nodded at any of those, <a target="_blank" rel="noopener noreferrer" href="https://calendly.com/hannah-jwd/30min" className="kicker-link">let&#x27;s have a chat</a>. It&#x27;s free.</p>
       </div>
     </section>
   );
