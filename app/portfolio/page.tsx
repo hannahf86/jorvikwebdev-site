@@ -56,27 +56,6 @@ const GROUPS: PortfolioGroup[] = [
       },
     ],
   },
-  {
-    title: "Dashboards & apps",
-    blurb: "Calm, usable tools for the day-to-day — built around how people actually work.",
-    items: [
-      {
-        src: "/images/portfolio-dash-enyn.webp",
-        alt: "Enyn client and project dashboard design",
-        caption: "Enyn — client & project dashboard",
-      },
-      {
-        src: "/images/portfolio-dash-mirian.webp",
-        alt: "Mirian debt tracker app design",
-        caption: "Mirian — debt tracker app",
-      },
-      {
-        src: "/images/portfolio-dash-lindon.webp",
-        alt: "Lindon music teaching studio dashboard design",
-        caption: "Lindon — music studio dashboard",
-      },
-    ],
-  },
 ];
 
 export default function PortfolioPage() {

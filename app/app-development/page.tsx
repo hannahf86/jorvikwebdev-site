@@ -88,8 +88,10 @@ export default function AppDevelopmentPage() {
         <div className="tt-wrap">
           <div className="tt-eyebrow">App Development</div>
           <h1 className="tt-hero-title">
-            <span className="tt-hw tt-hw-w">Apps built</span>
-            <span className="tt-hw tt-hw-g">with care.</span>
+            <span className="tt-hw tt-hw-w">Apps designed</span>
+            <span className="tt-hw tt-hw-g">&amp; built</span>
+            <span className="tt-hw tt-hw-t">to make</span>
+            <span className="tt-hw tt-hw-o">life easier</span>
           </h1>
           <p className="tt-hero-sub">
             A growing collection of apps I&#x27;ve designed and built. Some live, some still in

@@ -580,3 +580,8 @@ summary:focus-visible {
   margin-top: 1.1rem;
   margin-bottom: 1.4rem;
 }
+
+/* Orange heading-word variant for the stacked tt-hero titles (teal/green/white already exist) */
+.tt-hw-o {
+  color: #f7931e;
+}
