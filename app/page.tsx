@@ -6,7 +6,6 @@
    ============================================================================= */
 
 import { Hero } from "@/components/sections/home/Hero";
-import { Marquee } from "@/components/sections/home/Marquee";
 import { Pain } from "@/components/sections/home/Pain";
 import { Services } from "@/components/sections/home/Services";
 import { About } from "@/components/sections/home/About";
@@ -27,7 +26,6 @@ export default function HomePage() {
     <>
       <JsonLd data={homeJsonLd} />
       <Hero />
-      <Marquee />
       <Pain />
       <Services />
       <About />
