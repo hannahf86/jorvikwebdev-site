@@ -9,7 +9,7 @@ export function Why() {
         <div className="why-list">
           <div className="why-row">
             <div className="why-head">
-              <div className="why-title"><span className="why-num">01</span>We train you, free</div>
+              <div className="why-title"><span className="why-num">01</span>We train you</div>
               <div className="why-chev">⌄</div>
             </div>
             <div className="why-body">
@@ -21,19 +21,7 @@ export function Why() {
           </div>
           <div className="why-row">
             <div className="why-head">
-              <div className="why-title"><span className="why-num">02</span>100% eco hosting</div>
-              <div className="why-chev">⌄</div>
-            </div>
-            <div className="why-body">
-              <div className="why-body-inner">
-                <div className="mini-icon-service-div"><img src="/images/leaf-1.svg" loading="lazy" alt="" /></div>
-                <p className="why-p">Green hosting through Krystal — they plant a tree for every domain registered. Your website gives back to the planet instead of just taking from it.</p>
-              </div>
-            </div>
-          </div>
-          <div className="why-row">
-            <div className="why-head">
-              <div className="why-title"><span className="why-num">03</span>Neurodivergent friendly</div>
+              <div className="why-title"><span className="why-num">02</span>Neurodivergent friendly</div>
               <div className="why-chev">⌄</div>
             </div>
             <div className="why-body">
@@ -45,7 +33,7 @@ export function Why() {
           </div>
           <div className="why-row">
             <div className="why-head">
-              <div className="why-title"><span className="why-num">04</span>Honest by default</div>
+              <div className="why-title"><span className="why-num">03</span>Honest by default</div>
               <div className="why-chev">⌄</div>
             </div>
             <div className="why-body">
