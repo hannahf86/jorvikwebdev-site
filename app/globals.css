@@ -493,7 +493,8 @@ summary:focus-visible {
 /* FastTrack "you provide it" note — orange, aligned under the ticked items */
 .price-li-note {
   color: var(--color-orange);
-  padding-left: 1.875rem; /* 1.25rem tick + 0.625rem gap, so text lines up */
+  font-weight: 700;
+  padding-left: 0; /* sit flush-left, in line with the card title */
 }
 
 /* Custom card: "Get in touch" styled as a prominent green line (price stand-in) */
@@ -585,4 +586,10 @@ summary:focus-visible {
 }
 .about-h-lg {
   font-size: 1.08em;
+}
+
+/* Muted #666 strap/footnote text -> normal dark body colour */
+.panel-strap,
+.panel-footnote {
+  color: #0c0702;
 }
