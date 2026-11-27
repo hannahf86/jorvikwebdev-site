@@ -24,7 +24,7 @@ export default function ResourcesPage() {
           <div id="w-node-c15c81ef-e192-88ef-86dc-3701f589667a-b17a5a36" className="res-trust">
             <div className="res-trust-item"><span className="res-trust-dot"></span>Free, forever</div>
             <div className="res-trust-item"><span className="res-trust-dot"></span>No sign-up required</div>
-            <div className="res-trust-item"><span className="res-trust-dot"></span>Because we like to help</div>
+            <div className="res-trust-item"><span className="res-trust-dot"></span>Because I like to help</div>
           </div>
           <div id="w-node-_9e5c8604-e514-c9e3-5acf-7a40b0434fb8-b17a5a36" className="res-hero-visual"><img src="/images/JWD---Computer.png" alt="JWD checklist clipboard illustration" sizes="(max-width: 2000px) 100vw, 2000px" srcSet="/images/JWD---Computer-p-500.png 500w, /images/JWD---Computer-p-800.png 800w, /images/JWD---Computer-p-1080.png 1080w, /images/JWD---Computer-p-1600.png 1600w, /images/JWD---Computer.png 2000w" className="res-clipboard" /></div>
         </div>
@@ -103,7 +103,7 @@ export default function ResourcesPage() {
         <div className="cta-wrap">
           <div className="res-cta-inner">
             <h2 className="res-cta-title">Want something <span className="res-hl-g">built properly?</span></h2>
-            <p className="res-cta-sub">The workbook tells you what to do. We can do it for you. Free chat, no pressure, genuinely useful even if you don&#x27;t hire us.</p>
+            <p className="res-cta-sub">The workbook tells you what to do. I can do it for you. Free chat, no pressure, genuinely useful even if you don&#x27;t hire me.</p>
             <a target="_blank" rel="noopener noreferrer" href="https://calendly.com/hannah-jwd/30min" className="res-cta-btn">Book a free chat →</a>
           </div>
         </div>

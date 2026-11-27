@@ -16,7 +16,7 @@ export function Process() {
           <div className="step">
             <div className="step-num-t">02</div>
             <h3 className="step-h">Plan &amp; design</h3>
-            <p className="step-p">We map the pages, the user journey, and the design and explain every decision in plain English along the way.</p>
+            <p className="step-p">I map the pages, the user journey, and the design, and explain every decision in plain English along the way.</p>
           </div>
           <div className="step-arrow arrow-2"><svg viewBox="0 0 64 36" aria-hidden="true"><path d="M4 18 H50 M41 9 L55 18 L41 27" /></svg></div>
           <div className="step">
@@ -28,7 +28,7 @@ export function Process() {
           <div className="step">
             <div className="step-num-o">04</div>
             <h3 className="step-h">Launch &amp; learn</h3>
-            <p className="step-p">We hand over the keys with full training on our Brochure and Custom packages, so you&#x27;re empowered, not dependent. (But we&#x27;re here if you need us.)</p>
+            <p className="step-p">I hand over the keys with full training on my Brochure and Custom packages, so you&#x27;re empowered, not dependent. (But I&#x27;m here if you need me.)</p>
           </div>
         </div>
       </div>

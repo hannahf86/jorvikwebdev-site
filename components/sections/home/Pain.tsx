@@ -15,7 +15,7 @@ export function Pain() {
           <div className="pain-card-home">
             <div className="mini-icon-service-div"><img src="/images/custom.svg" loading="lazy" alt="" className="pain-icon-code" /></div>
             <h3 className="card-h">&quot;I don&#x27;t speak developer&quot;</h3>
-            <p className="card-p">With handover training, we make sure you understand your website entirely</p>
+            <p className="card-p">With handover training, I make sure you understand your website entirely</p>
           </div>
           <div className="pain-card-home">
             <div className="mini-icon-service-div"><img src="/images/top-brand.svg" loading="lazy" alt="" /></div>

@@ -10,19 +10,19 @@ export function Faq() {
           <div className="faq-item">
             <div className="faq-q">How long does a website take to build?<span className="faq-plus">+</span></div>
             <div className="faq-a">
-              <p className="faq-a-p">FastTrack sites go live within 7 working days. Brochure builds typically take 2–4 weeks; custom projects 4–8 weeks depending on features. You&#x27;ll get an honest timeline upfront — and we stick to it.</p>
+              <p className="faq-a-p">FastTrack sites go live within 7 working days. Brochure builds typically take 2–4 weeks; custom projects 4–8 weeks depending on features. You&#x27;ll get an honest timeline upfront — and I stick to it.</p>
             </div>
           </div>
           <div className="faq-item">
             <div className="faq-q">Will I be able to update the site myself?<span className="faq-plus">+</span></div>
             <div className="faq-a">
-              <p className="faq-a-p">Yes — that&#x27;s the whole point. The Webflow tutorial is free with every Brochure package or above, and we build in Webflow because its editor is genuinely friendly for non-techy humans.</p>
+              <p className="faq-a-p">Yes — that&#x27;s the whole point. The Webflow tutorial is free with every Brochure package or above, and I build in Webflow because its editor is genuinely friendly for non-techy humans.</p>
             </div>
           </div>
           <div className="faq-item">
             <div className="faq-q">Is SEO really included, or is that a sneaky upsell?<span className="faq-plus">+</span></div>
             <div className="faq-a">
-              <p className="faq-a-p">Really included. Structured headings, schema markup, image optimisation, meta titles and descriptions come as standard with every build. We don&#x27;t think you should pay extra for the basics being done properly.</p>
+              <p className="faq-a-p">Really included. Structured headings, schema markup, image optimisation, meta titles and descriptions come as standard with every build. I don&#x27;t think you should pay extra for the basics being done properly.</p>
             </div>
           </div>
           <div className="faq-item">
@@ -34,7 +34,7 @@ export function Faq() {
           <div className="faq-item">
             <div className="faq-q">Do you only work with businesses in York?<span className="faq-plus">+</span></div>
             <div className="faq-a">
-              <p className="faq-a-p">Not at all — we&#x27;re York-based and love our local community, but we work with small businesses across the UK. Video calls work just as well as coffee shops (almost).</p>
+              <p className="faq-a-p">Not at all — I&#x27;m York-based and love my local community, but I work with small businesses across the UK. Video calls work just as well as coffee shops (almost).</p>
             </div>
           </div>
         </div>
