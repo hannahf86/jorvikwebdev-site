@@ -39,21 +39,19 @@ const GROUPS: PortfolioGroup[] = [
   {
     title: "Dashboards & apps",
     blurb: "Calm, usable tools for the day-to-day — built around how people actually work.",
-    // NOTE: placeholder images (existing app crops) until the full-length
-    // dashboard screenshots are attached — swap these three src values then.
     items: [
       {
-        src: "/images/app-enyn.webp",
+        src: "/images/portfolio-dash-enyn.webp",
         alt: "Enyn client and project dashboard design",
         caption: "Enyn — client & project dashboard",
       },
       {
-        src: "/images/app-mirian.webp",
+        src: "/images/portfolio-dash-mirian.webp",
         alt: "Mirian debt tracker app design",
         caption: "Mirian — debt tracker app",
       },
       {
-        src: "/images/app-lindon.webp",
+        src: "/images/portfolio-dash-lindon.webp",
         alt: "Lindon music teaching studio dashboard design",
         caption: "Lindon — music studio dashboard",
       },
